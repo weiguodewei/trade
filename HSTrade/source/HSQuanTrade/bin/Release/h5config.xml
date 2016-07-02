@@ -1,0 +1,93 @@
+<?xml  version="1.0" encoding="GBK"?>
+<supportmkt  multibizthread="1" maxmsginqueue="10000" initmsgcountinpool="1000" loglevel="7">
+	<connection user="" password="">
+    <markets>
+      <market mktname="上海Level1" mkttype="0x101"/>
+      <market mktname="深圳Level1" mkttype="0x102"/>
+    </markets>
+
+    <servers>
+      <svraddr svrip="112.124.211.83" svrport="443"/>
+      <svraddr svrip="112.124.210.229" svrport="443"/>
+    </servers>
+  </connection>
+  
+  <connection user="" password="">
+    <markets>
+	  <market mktname="上海个股期权" mkttype="0xd01"/>
+    </markets>
+
+    <servers>
+	  <svraddr svrip="112.124.211.83" svrport="443"/>
+    </servers>
+  </connection>
+	
+	<!--
+	
+	      <market mktname="新三板（股转）" mkttype="0x10b"/>
+	<connection user="" password="">
+    <markets>
+      <market mktname="上海Level2" mkttype="0x201"/>
+      <market mktname="深圳Level2" mkttype="0x202"/>
+    </markets>
+
+    <servers>
+    	<svraddr svrip="192.168.131.84" svrport="9999"/>
+    </servers>
+  </connection>
+  
+  <connection user="" password="">
+    <markets>
+    	<market mktname="中金所期货" mkttype="0x303"/>
+    	<market mktname="上期所期货" mkttype="0x304"/>
+      <market mktname="大商所期货" mkttype="0x305"/>
+			<market mktname="郑商所期货" mkttype="0x306"/>
+    </markets>
+
+    <servers>
+      <svraddr svrip="192.168.131.84" svrport="9999"/>
+    </servers>
+  </connection>
+  
+  <connection user="" password="">
+    <markets>
+    	<market mktname="组合合约" mkttype="0x30c"/>
+    </markets>
+
+    <servers>
+    	<svraddr svrip="192.168.131.84" svrport="9999"/>
+    </servers>
+  </connection>
+  
+  <connection user="" password="">
+    <markets>
+    	<market mktname="上海个股期权" mkttype="0xd01"/>
+    	<market mktname="深圳个股期权" mkttype="0xd02"/>
+    	<market mktname="中金所期权" mkttype="0x1103"/>
+			<market mktname="上期所期权" mkttype="0x1104"/>
+			<market mktname="大商所期权" mkttype="0x1105"/>
+			<market mktname="郑商所期权" mkttype="0x1106"/>
+    </markets>
+
+    <servers>
+      <svraddr svrip="192.168.131.84" svrport="9999"/>
+    </servers>
+  </connection>
+  
+  <connection user="" password="">
+    <markets>
+    	<market mktname="港股指数" mkttype="0x501"/>
+			<market mktname="港股主板" mkttype="0x502"/>
+			<market mktname="港股创业板" mkttype="0x503"/>
+			<market mktname="港股NASD" mkttype="0x504"/>
+			<market mktname="港股ETS" mkttype="0x505"/>
+    	<market mktname="上海港股通" mkttype="0x506"/>
+    </markets>
+
+    <servers>
+    	<svraddr svrip="192.168.131.84" svrport="9999"/>
+    </servers>
+  </connection>
+	-->
+
+</supportmkt>

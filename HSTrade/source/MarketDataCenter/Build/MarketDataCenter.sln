@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MarketDataCenter", "..\MarketDataCenter\MarketDataCenter.vcxproj", "{2BACC313-346F-49A2-B144-D7DB83B98C71}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Demo", "..\Demo\Demo.vcxproj", "{D58A0B01-2253-451A-882B-2A51D2603513}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MarkDataTraderApi", "..\MarkDataTraderApi\MarkDataTraderApi.vcxproj", "{210C0EA7-380F-4812-8A4D-96BF8F633307}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HundsunFutuMdApi", "..\HundsunFutuMdApi\HundsunFutuMdApi.vcxproj", "{363DFF46-EA07-4707-B412-FA9AC187E4FC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SimpleDemo", "..\SimpleDemo\SimpleDemo.vcxproj", "{4AB44CAA-E43A-42B3-A735-49092A7BAF6B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HundsunH5sdkApi", "..\HundsunH5sdkApi\HundsunH5sdkApi.vcxproj", "{50C8171D-6F81-46C3-BE51-009EBDFDBA95}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "H5sdkDemo", "..\H5sdkDemo\H5sdkDemo.vcxproj", "{0A489E12-9EBD-488A-8F83-66EDBB799F58}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2BACC313-346F-49A2-B144-D7DB83B98C71}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2BACC313-346F-49A2-B144-D7DB83B98C71}.Debug|Win32.Build.0 = Debug|Win32
+		{2BACC313-346F-49A2-B144-D7DB83B98C71}.Release|Win32.ActiveCfg = Release|Win32
+		{2BACC313-346F-49A2-B144-D7DB83B98C71}.Release|Win32.Build.0 = Release|Win32
+		{D58A0B01-2253-451A-882B-2A51D2603513}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D58A0B01-2253-451A-882B-2A51D2603513}.Debug|Win32.Build.0 = Debug|Win32
+		{D58A0B01-2253-451A-882B-2A51D2603513}.Release|Win32.ActiveCfg = Release|Win32
+		{D58A0B01-2253-451A-882B-2A51D2603513}.Release|Win32.Build.0 = Release|Win32
+		{210C0EA7-380F-4812-8A4D-96BF8F633307}.Debug|Win32.ActiveCfg = Debug|Win32
+		{210C0EA7-380F-4812-8A4D-96BF8F633307}.Debug|Win32.Build.0 = Debug|Win32
+		{210C0EA7-380F-4812-8A4D-96BF8F633307}.Release|Win32.ActiveCfg = Release|Win32
+		{210C0EA7-380F-4812-8A4D-96BF8F633307}.Release|Win32.Build.0 = Release|Win32
+		{363DFF46-EA07-4707-B412-FA9AC187E4FC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{363DFF46-EA07-4707-B412-FA9AC187E4FC}.Debug|Win32.Build.0 = Debug|Win32
+		{363DFF46-EA07-4707-B412-FA9AC187E4FC}.Release|Win32.ActiveCfg = Release|Win32
+		{363DFF46-EA07-4707-B412-FA9AC187E4FC}.Release|Win32.Build.0 = Release|Win32
+		{4AB44CAA-E43A-42B3-A735-49092A7BAF6B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4AB44CAA-E43A-42B3-A735-49092A7BAF6B}.Debug|Win32.Build.0 = Debug|Win32
+		{4AB44CAA-E43A-42B3-A735-49092A7BAF6B}.Release|Win32.ActiveCfg = Release|Win32
+		{4AB44CAA-E43A-42B3-A735-49092A7BAF6B}.Release|Win32.Build.0 = Release|Win32
+		{50C8171D-6F81-46C3-BE51-009EBDFDBA95}.Debug|Win32.ActiveCfg = Debug|Win32
+		{50C8171D-6F81-46C3-BE51-009EBDFDBA95}.Debug|Win32.Build.0 = Debug|Win32
+		{50C8171D-6F81-46C3-BE51-009EBDFDBA95}.Release|Win32.ActiveCfg = Release|Win32
+		{50C8171D-6F81-46C3-BE51-009EBDFDBA95}.Release|Win32.Build.0 = Release|Win32
+		{0A489E12-9EBD-488A-8F83-66EDBB799F58}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0A489E12-9EBD-488A-8F83-66EDBB799F58}.Debug|Win32.Build.0 = Debug|Win32
+		{0A489E12-9EBD-488A-8F83-66EDBB799F58}.Release|Win32.ActiveCfg = Release|Win32
+		{0A489E12-9EBD-488A-8F83-66EDBB799F58}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

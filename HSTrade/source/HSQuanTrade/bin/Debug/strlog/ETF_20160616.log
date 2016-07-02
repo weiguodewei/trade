@@ -1,0 +1,58 @@
+15:43:38     LoadRiskConfigSystem.ArgumentException: URL 不能为空。
+参数名: url
+   在 System.Xml.XmlTextReaderImpl..ctor(String url, XmlNameTable nt)
+   在 System.Xml.XmlDocument.Load(String filename)
+   在 HSQuanTradeMain.FormMain.LoadRiskConfig(String filename) 位置 d:\HS\策略交易\trunk\Sources\HSQuanTrade\HSQuanTradeMain\FormMain.cs:行号 839
+15:45:25     LoadRiskConfigSystem.ArgumentException: URL 不能为空。
+参数名: url
+   在 System.Xml.XmlTextReaderImpl..ctor(String url, XmlNameTable nt)
+   在 System.Xml.XmlDocument.Load(String filename)
+   在 HSQuanTradeMain.FormMain.LoadRiskConfig(String filename) 位置 d:\HS\策略交易\trunk\Sources\HSQuanTrade\HSQuanTradeMain\FormMain.cs:行号 839
+15:49:57     LoadRiskConfigSystem.ArgumentException: URL 不能为空。
+参数名: url
+   在 System.Xml.XmlTextReaderImpl..ctor(String url, XmlNameTable nt)
+   在 System.Xml.XmlDocument.Load(String filename)
+   在 HSQuanTradeMain.FormMain.LoadRiskConfig(String filename) 位置 d:\HS\策略交易\trunk\Sources\HSQuanTrade\HSQuanTradeMain\FormMain.cs:行号 839
+15:52:08     LoadRiskConfigSystem.IO.FileNotFoundException: 未能找到文件“D:\HS\策略交易\trunk\Sources\HSQuanTrade\bin\Debug\risk.xml”。
+文件名:“D:\HS\策略交易\trunk\Sources\HSQuanTrade\bin\Debug\risk.xml”
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   在 System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   在 System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   在 System.Xml.XmlTextReaderImpl.OpenUrlDelegate(Object xmlResolver)
+   在 System.Threading.CompressedStack.runTryCode(Object userData)
+   在 System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   在 System.Threading.CompressedStack.Run(CompressedStack compressedStack, ContextCallback callback, Object state)
+   在 System.Xml.XmlTextReaderImpl.OpenUrl()
+   在 System.Xml.XmlTextReaderImpl.Read()
+   在 System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   在 System.Xml.XmlDocument.Load(XmlReader reader)
+   在 System.Xml.XmlDocument.Load(String filename)
+   在 HSQuanTradeMain.FormMain.LoadRiskConfig(String filename) 位置 d:\HS\策略交易\trunk\Sources\HSQuanTrade\HSQuanTradeMain\FormMain.cs:行号 839
+15:57:21     LoadRiskConfigSystem.ArgumentException: URL 不能为空。
+参数名: url
+   在 System.Xml.XmlTextReaderImpl..ctor(String url, XmlNameTable nt)
+   在 System.Xml.XmlDocument.Load(String filename)
+   在 HSQuanTradeMain.FormMain.LoadRiskConfig(String filename) 位置 d:\HS\策略交易\trunk\Sources\HSQuanTrade\HSQuanTradeMain\FormMain.cs:行号 839
+15:57:40     risk.xmlSystem.ArgumentException: URL 不能为空。
+参数名: url
+   在 System.Xml.XmlTextReaderImpl..ctor(String url, XmlNameTable nt)
+   在 System.Xml.XmlDocument.Load(String filename)
+   在 HSQuanTradeMain.FormSet.button3_Click(Object sender, EventArgs e) 位置 d:\HS\策略交易\trunk\Sources\HSQuanTrade\HSQuanTradeMain\FormSet.cs:行号 605
+15:58:41     LoadRiskConfigSystem.ArgumentException: URL 不能为空。
+参数名: url
+   在 System.Xml.XmlTextReaderImpl..ctor(String url, XmlNameTable nt)
+   在 System.Xml.XmlDocument.Load(String filename)
+   在 HSQuanTradeMain.FormMain.LoadRiskConfig(String filename) 位置 d:\HS\策略交易\trunk\Sources\HSQuanTrade\HSQuanTradeMain\FormMain.cs:行号 839
+16:00:26     LoadRiskConfigSystem.ArgumentException: URL 不能为空。
+参数名: url
+   在 System.Xml.XmlTextReaderImpl..ctor(String url, XmlNameTable nt)
+   在 System.Xml.XmlDocument.Load(String filename)
+   在 HSQuanTradeMain.FormMain.LoadRiskConfig(String filename) 位置 d:\HS\策略交易\trunk\Sources\HSQuanTrade\HSQuanTradeMain\FormMain.cs:行号 839
+16:05:15     LoadRiskConfigSystem.ArgumentException: URL 不能为空。
+参数名: url
+   在 System.Xml.XmlTextReaderImpl..ctor(String url, XmlNameTable nt)
+   在 System.Xml.XmlDocument.Load(String filename)
+   在 HSQuanTradeMain.FormMain.LoadRiskConfig(String filename) 位置 d:\HS\策略交易\trunk\Sources\HSQuanTrade\HSQuanTradeMain\FormMain.cs:行号 839
+

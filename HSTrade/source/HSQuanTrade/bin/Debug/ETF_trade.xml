@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="gb2312"?>
+<etf_bak>
+  <etf_case id="26444479-78ba-4c77-a169-29e517880b26">
+    <order_info>
+      <order no= "1" time="" account="101300595" code1="000919" price1="1" code2="000121" price2="2" code3="19212" price1="3" code4="09212" price4="4" duijia="12.98" paidui="21" />   
+   		<order no= "2" time="" account="101300595" code1="000919" price1="1" code2="000121" price2="2" code3="19212" price1="3" code4="09212" price4="4" duijia="12.98" paidui="21" />   
+    </order_info>
+  </etf_case>
+</etf_bak>

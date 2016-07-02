@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="gb2312"?>
+<strategy_bak>
+  <strategy_case status="0" id="1abec89f-8a9b-4a17-999b-9ddfc82b8f92">
+    <name>新高突破买入</name>
+    <params />
+    <contract_postion />
+  </strategy_case>
+  <strategy_case status="0" id="26444479-78ba-4c77-a169-29e517880b26">
+    <name>新高突破买入</name>
+    <params>
+      <param name="交易合约" value="603366" />
+      <param name="日线周期" value="30" />
+      <param name="新高天数" value="20" />
+      <param name="震荡幅度" value="0.300" />
+      <param name="止损率" value="0.08" />
+      <param name="回调率" value="0.150" />
+      <param name="止盈率" value="0.010" />
+      <param name="初始权益" value="1000.000" />
+      <param name="同时开仓数" value="0" />
+      <param name="手续费率" value="0.001" />
+      <param name="是否复利" value="0" />
+      <param name="是否下单" value="1" />
+      <param name="是否参考20日均线" value="0" />
+      <param name="账户" value="610000000052" />
+      <param name="" value="" />
+    </params>
+    <contract_postion>
+      <contract code="000886" name="海南高速" postion="100" open_price="5.95" dir="0" open_time="20160505 142601" high_price="5.96" />
+    </contract_postion>
+    <contract_postion />
+  </strategy_case>
+</strategy_bak>

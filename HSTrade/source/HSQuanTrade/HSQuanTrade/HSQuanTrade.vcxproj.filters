@@ -1,0 +1,306 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="other">
+      <UniqueIdentifier>{545d2573-cf0b-40fa-a0a7-0c0fc92a5451}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="trade">
+      <UniqueIdentifier>{4e8f2714-71d0-429f-a162-3e5d46d32492}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Strategy">
+      <UniqueIdentifier>{2738ba94-6fa3-4c10-b0c9-5101d53adac1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tradetest">
+      <UniqueIdentifier>{d4a51cd0-4146-43df-8d37-044d88a53ab5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+    <Text Include="修改记录.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="HSQuanTrade.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="HSQuanTradeCtrl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="HSQuanTradePropPage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FunctionPub.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CinfoLogger.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="other\tinystr.cpp">
+      <Filter>other</Filter>
+    </ClCompile>
+    <ClCompile Include="other\tinyxml.cpp">
+      <Filter>other</Filter>
+    </ClCompile>
+    <ClCompile Include="other\tinyxmlerror.cpp">
+      <Filter>other</Filter>
+    </ClCompile>
+    <ClCompile Include="other\tinyxmlparser.cpp">
+      <Filter>other</Filter>
+    </ClCompile>
+    <ClCompile Include="CTPTrade.cpp">
+      <Filter>trade</Filter>
+    </ClCompile>
+    <ClCompile Include="FeimaMduserSpi.cpp">
+      <Filter>trade</Filter>
+    </ClCompile>
+    <ClCompile Include="FeimaTraderSpi.cpp">
+      <Filter>trade</Filter>
+    </ClCompile>
+    <ClCompile Include="mdSpi.cpp">
+      <Filter>trade</Filter>
+    </ClCompile>
+    <ClCompile Include="MdSpiCTP.cpp">
+      <Filter>trade</Filter>
+    </ClCompile>
+    <ClCompile Include="MgServerSocket.cpp">
+      <Filter>trade</Filter>
+    </ClCompile>
+    <ClCompile Include="Order.cpp">
+      <Filter>trade</Filter>
+    </ClCompile>
+    <ClCompile Include="SocketTrade.cpp">
+      <Filter>trade</Filter>
+    </ClCompile>
+    <ClCompile Include="UFXTrade.cpp">
+      <Filter>trade</Filter>
+    </ClCompile>
+    <ClCompile Include="TraderSpi.cpp">
+      <Filter>trade</Filter>
+    </ClCompile>
+    <ClCompile Include="TradeInterface.cpp">
+      <Filter>trade</Filter>
+    </ClCompile>
+    <ClCompile Include="StrategyBase.cpp">
+      <Filter>Strategy</Filter>
+    </ClCompile>
+    <ClCompile Include="StragegyManager.cpp">
+      <Filter>Strategy</Filter>
+    </ClCompile>
+    <ClCompile Include="tool.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CKdata.cpp">
+      <Filter>tradetest</Filter>
+    </ClCompile>
+    <ClCompile Include="TradeStatistic2.cpp">
+      <Filter>tradetest</Filter>
+    </ClCompile>
+    <ClCompile Include="public.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FundManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="KDataEx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseTradeApi.cpp">
+      <Filter>trade</Filter>
+    </ClCompile>
+    <ClCompile Include="UFXOptTradeApi.cpp">
+      <Filter>trade</Filter>
+    </ClCompile>
+    <ClCompile Include="UFXOptTradeSpi.cpp">
+      <Filter>trade</Filter>
+    </ClCompile>
+    <ClCompile Include="FuncDeal.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="EasyThread.cpp">
+      <Filter>trade</Filter>
+    </ClCompile>
+    <ClCompile Include="COrderEx.cpp">
+      <Filter>trade</Filter>
+    </ClCompile>
+    <ClCompile Include="UFXTradeEx.cpp">
+      <Filter>trade</Filter>
+    </ClCompile>
+    <ClCompile Include="UFXTradeSpiEx.cpp">
+      <Filter>trade</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HSQuanTrade.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HSQuanTradeCtrl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HSQuanTradePropPage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="StrategyBase.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="StragegyManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Order.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mdSpi.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="public.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\HundsunMdApi.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\HundsunMdCenterApi.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MdSpiCTP.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\MgServerSocket.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SocketTrade.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tinystr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tinyxml.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TradeStatistic2.h">
+      <Filter>tradetest</Filter>
+    </ClInclude>
+    <ClInclude Include="KDataEx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseTradeApi.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CinfoLogger.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CKdata.h">
+      <Filter>tradetest</Filter>
+    </ClInclude>
+    <ClInclude Include="CTPTrade.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FeimaMduserSpi.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FeimaTraderSpi.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FunctionPub.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FundManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TradeCommHeaders.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TradeInterface.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TraderSpi.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="typedefine.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UFXTrade.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UFXOptTradeApi.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UFXOptTradeSpi.h">
+      <Filter>trade</Filter>
+    </ClInclude>
+    <ClInclude Include="FuncDeal.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="EasyThread.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="COrderEx.h">
+      <Filter>trade</Filter>
+    </ClInclude>
+    <ClInclude Include="CDump.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\HundsunTraderApi.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\MarkDataTraderApi.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\MarkDataUserApiStruct.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UFXTradeEx.h">
+      <Filter>trade</Filter>
+    </ClInclude>
+    <ClInclude Include="UFXTradeSpiEx.h">
+      <Filter>trade</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="HSQuanTrade.def">
+      <Filter>源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="HSQuanTrade.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Midl Include="HSQuanTrade.idl">
+      <Filter>源文件</Filter>
+    </Midl>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="HSQuanTrade.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="HSQuanTradeCtrl.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

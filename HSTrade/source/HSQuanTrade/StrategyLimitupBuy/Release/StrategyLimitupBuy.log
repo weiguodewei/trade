@@ -1,0 +1,46 @@
+﻿生成启动时间为 2016/4/13 9:05:34。
+     1>项目“D:\HS\策略交易\trunk\Sources\HSQuanTrade\StrategyLimitupBuy\StrategyLimitupBuy.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I..\HSQuanTrade\include\ /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _USRDLL /D _CRT_SECURE_NO_WARNINGS /D _WINDLL /D _MBCS /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\StrategyLimitupBuy.pch" /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ..\HSQuanTrade\CKdata.cpp ..\HSQuanTrade\FunctionPub.cpp ..\HSQuanTrade\FundManager.cpp ..\HSQuanTrade\StrategyBase.cpp ..\HSQuanTrade\tool.cpp StrategyLimitupBuy.cpp StrategyLimitupBuy_imp.cpp
+         CKdata.cpp
+     1>..\HSQuanTrade\CKdata.cpp(136): warning C4018: “<”: 有符号/无符号不匹配
+     1>..\HSQuanTrade\CKdata.cpp(142): warning C4018: “<”: 有符号/无符号不匹配
+     1>..\HSQuanTrade\CKdata.cpp(125): warning C4101: “oCurKData”: 未引用的局部变量
+     1>..\HSQuanTrade\CKdata.cpp(176): warning C4018: “<”: 有符号/无符号不匹配
+     1>..\HSQuanTrade\CKdata.cpp(172): warning C4101: “oKdata”: 未引用的局部变量
+     1>..\HSQuanTrade\CKdata.cpp(162): warning C4101: “oCurKData”: 未引用的局部变量
+         FunctionPub.cpp
+         FundManager.cpp
+         StrategyBase.cpp
+     1>..\HSQuanTrade\StrategyBase.cpp(547): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+         tool.cpp
+     1>..\HSQuanTrade\tool.cpp(361): warning C4018: “<”: 有符号/无符号不匹配
+         StrategyLimitupBuy.cpp
+         StrategyLimitupBuy_imp.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\HS\策略交易\trunk\Sources\HSQuanTrade\\bin\Release\StrageDLL\StrategyLimitupBuy.dll" /INCREMENTAL /NOLOGO /DEF:".\StrategyLimitupBuy.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"D:\HS\策略交易\trunk\Sources\HSQuanTrade\\bin\Release\StrageDLL\StrategyLimitupBuy.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\HS\策略交易\trunk\Sources\HSQuanTrade\\bin\Release\StrageDLL\StrategyLimitupBuy.lib" /MACHINE:X86 /SAFESEH /DLL Release\StrategyLimitupBuy.res
+         Release\CinfoLogger.obj
+         Release\CKdata.obj
+         Release\data.obj
+         Release\FunctionPub.obj
+         Release\FundManager.obj
+         Release\StrategyBase.obj
+         Release\tool.obj
+         Release\TradeStatistic2.obj
+         Release\tinystr.obj
+         Release\tinyxml.obj
+         Release\tinyxmlerror.obj
+         Release\tinyxmlparser.obj
+         Release\stdafx.obj
+         Release\StrategyLimitupBuy.obj
+         Release\StrategyLimitupBuy_imp.obj
+     1>LINK : warning LNK4075: 忽略“/INCREMENTAL”(由于“/LTCG”规范)
+            正在创建库 D:\HS\策略交易\trunk\Sources\HSQuanTrade\\bin\Release\StrageDLL\StrategyLimitupBuy.lib 和对象 D:\HS\策略交易\trunk\Sources\HSQuanTrade\\bin\Release\StrageDLL\StrategyLimitupBuy.exp
+         正在生成代码
+         已完成代码的生成
+         StrategyLimitupBuy.vcxproj -> D:\HS\策略交易\trunk\Sources\HSQuanTrade\\bin\Release\StrageDLL\StrategyLimitupBuy.dll
+     1>已完成生成项目“D:\HS\策略交易\trunk\Sources\HSQuanTrade\StrategyLimitupBuy\StrategyLimitupBuy.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:18.67

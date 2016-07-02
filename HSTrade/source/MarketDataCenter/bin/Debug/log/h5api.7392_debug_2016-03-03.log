@@ -1,0 +1,15 @@
+#####################[2016-03-03 10:29:57] begin to write log #########################
+[03-03 10:29:57]:[NOTICE]:[h5api.cpp, InitApi, 918]: [h5api][pid: 7392][Lib Version: v1.0.22]
+[03-03 10:29:57]:[NOTICE]:[h5api.cpp, InitApi, 989]: 配置为每个连接拥有独立业务处理线程.
+[03-03 10:29:57]:[NOTICE]:[h5api.cpp, InitApi, 995]: 业务处理线程最大消息积压个数:10000, 消息池内初始化消息个数为:1000.
+[03-03 10:29:57]:[NOTICE]:[h5api.cpp, InitApi, 1004]: loglevel = PUG_LOG_OPTION1 | PUG_LOG_OPTION2 | ...
+PUB_LOG_OPTIONS: [ PUB_LOG_ERROR(1) | PUB_LOG_ALARM(2) | PUB_LOG_NOTICE(4) | PUB_LOG_FILDBG(8) | PUB_LOG_DEBUG(16) ]
+[03-03 10:29:57]:[NOTICE]:[h5api.cpp, InitApi, 1008]: 原日志级别[loglevel = 7 [ PUB_LOG_ERROR(1) | PUB_LOG_ALARM(2) | PUB_LOG_NOTICE(4) ]]被设置成为[loglevel = 7 [ PUB_LOG_ERROR(1) | PUB_LOG_ALARM(2) | PUB_LOG_NOTICE(4) ]].
+[03-03 10:29:57]:[NOTICE]:[h5api.cpp, LoadConnectionConfig, 548]: 市场[0x101;0x102;0x10b]心跳间隔为10s.
+[03-03 10:29:57]:[NOTICE]:[market.h, CMarket::MarketCallback, 415]: 市场状态回调：市场[0x101], 市场序号[0], 市场状态[0]
+[03-03 10:29:57]:[NOTICE]:[market.h, CMarket::MarketCallback, 415]: 市场状态回调：市场[0x102], 市场序号[1], 市场状态[0]
+[03-03 10:29:58]:[NOTICE]:[market.h, CMarket::MarketCallback, 415]: 市场状态回调：市场[0x10b], 市场序号[2], 市场状态[0]
+[03-03 10:29:58]:[NOTICE]:[connection.cpp, CConnection::Start, 226]: 市场[0x101;0x102;0x10b]业务处理线程启动成功！
+[03-03 10:29:58]:[NOTICE]:[connection.cpp, CConnection::Start, 234]: 市场[0x101;0x102;0x10b]与行情服务器建立连接...
+[03-03 10:29:58]:[NOTICE]:[h5api.cpp, InitApi, 1067]: 连接状态监控线程启动成功！
+[03-03 10:29:58]:[NOTICE]:[h5api.cpp, InitApi, 1086]: h5api initialized successfully: config file[h5config.xml], connection count 1, market count 3!

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="gb2312"?>
+<ranges>
+  <accountinfo>
+    <account>10000013</account>
+    <pwd>111111</pwd>
+    <serverip>127.0.0.1</serverip>
+    <apitype>UFX_AUTO</apitype>
+    <brokeid>1</brokeid>
+  </accountinfo>
+  <accountinfo>
+    <account>610000000052</account>
+    <pwd>151027</pwd>
+    <serverip>127.0.0.1</serverip>
+    <apitype>UFX_AUTO</apitype>
+    <brokeid>1</brokeid>
+  </accountinfo>
+  <accountinfo>
+    <account>57152456</account>
+    <pwd>151027</pwd>
+    <serverip>127.0.0.1</serverip>
+    <apitype>UFX_AUTO</apitype>
+    <brokeid>1</brokeid>
+  </accountinfo>
+
+</ranges>

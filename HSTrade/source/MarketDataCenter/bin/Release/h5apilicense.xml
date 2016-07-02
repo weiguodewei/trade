@@ -1,0 +1,6 @@
+<?xml  version="1.0" encoding="GBK"?>
+<root>
+	<licensekey note="许可密钥">xLAFf2/zrOU=</licensekey>
+	<toexpiretip note="将要到期提示。提前一个月进行提示，每10分钟回调提示一下。%u将输出10进制数字形式的多少天后过期；%s将输出格式如2014年2月1日的到期日。配置时请保证%u在%s之前。">H5API将在%u天后到期，到期日为%s！</toexpiretip>
+	<expiredtip note="到期提示。当前机器日期大于过期日后每10分钟回调提示一下。%s将输出格式如2014年2月1日的过期日">H5API已经到期了，到期日为%s！</expiredtip>
+</root>

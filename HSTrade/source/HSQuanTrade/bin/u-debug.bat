@@ -1,0 +1,1 @@
+regsvr32 -u D:\HS\²ßÂÔ½»Ò×\trunk\Sources\HSQuanTrade\bin\Debug\HSQuanTrade.ocx

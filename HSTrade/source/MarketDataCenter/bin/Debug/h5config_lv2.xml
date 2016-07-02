@@ -1,0 +1,15 @@
+<?xml  version="1.0" encoding="GBK"?>
+<supportmkt  multibizthread="1" maxmsginqueue="10000" initmsgcountinpool="1000" loglevel="7">
+	<connection user="803001104" password="803001104">
+    <markets>
+      <market mktname="上海Level2" mkttype="0x201"/>
+      <market mktname="深圳Level2" mkttype="0x202"/>
+    </markets>
+
+    <servers>
+    	<svraddr svrip="112.124.212.192" svrport="8525"/>
+    	<svraddr svrip="112.124.209.49" svrport="8525"/>
+    	<svraddr svrip="115.238.20.150" svrport="18525"/>
+    </servers>
+  </connection>
+</supportmkt>

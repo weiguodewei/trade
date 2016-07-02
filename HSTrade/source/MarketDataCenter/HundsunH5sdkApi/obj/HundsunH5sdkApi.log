@@ -1,0 +1,55 @@
+﻿生成启动时间为 2016/4/1 17:17:03。
+     1>项目“D:\HS\策略交易\trunk\Sources\MarketDataCenter\HundsunH5sdkApi\HundsunH5sdkApi.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"D:\HS\策略交易\trunk\Sources\MarketDataCenter\Build\..\Common" /I"D:\HS\策略交易\trunk\Sources\MarketDataCenter\Build\..\Include" /I"D:\HS\策略交易\trunk\Sources\MarketDataCenter\Build\..\Include\h5sdk" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _USRDLL /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"obj\\" /Fd"obj\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ..\Common\h5sdk_impl.cpp ..\Common\public.cpp HundsunH5sdkApi_impl.cpp
+         HundsunH5sdkApi_impl.cpp
+     1>d:\hs\策略交易\trunk\sources\marketdatacenter\hundsunh5sdkapi\hundsunh5sdkapi_impl.cpp(834): warning C4244: “=”: 从“uint64”转换到“long”，可能丢失数据
+     1>d:\hs\策略交易\trunk\sources\marketdatacenter\hundsunh5sdkapi\hundsunh5sdkapi_impl.cpp(901): warning C4244: “=”: 从“uint64”转换到“long”，可能丢失数据
+     1>d:\hs\策略交易\trunk\sources\marketdatacenter\hundsunh5sdkapi\hundsunh5sdkapi_impl.cpp(1137): warning C4244: “=”: 从“uint64”转换到“long”，可能丢失数据
+     1>d:\hs\策略交易\trunk\sources\marketdatacenter\hundsunh5sdkapi\hundsunh5sdkapi_impl.cpp(1164): warning C4244: “=”: 从“uint64”转换到“long”，可能丢失数据
+     1>d:\hs\策略交易\trunk\sources\marketdatacenter\hundsunh5sdkapi\hundsunh5sdkapi_impl.cpp(1281): warning C4244: “=”: 从“uint64”转换到“long”，可能丢失数据
+     1>d:\hs\策略交易\trunk\sources\marketdatacenter\hundsunh5sdkapi\hundsunh5sdkapi_impl.cpp(1283): warning C4244: “=”: 从“uint64”转换到“long”，可能丢失数据
+     1>d:\hs\策略交易\trunk\sources\marketdatacenter\hundsunh5sdkapi\hundsunh5sdkapi_impl.cpp(1289): warning C4244: “=”: 从“uint64”转换到“long”，可能丢失数据
+     1>d:\hs\策略交易\trunk\sources\marketdatacenter\hundsunh5sdkapi\hundsunh5sdkapi_impl.cpp(1291): warning C4244: “=”: 从“uint64”转换到“long”，可能丢失数据
+     1>d:\hs\策略交易\trunk\sources\marketdatacenter\hundsunh5sdkapi\hundsunh5sdkapi_impl.cpp(1293): warning C4244: “=”: 从“uint64”转换到“long”，可能丢失数据
+     1>d:\hs\策略交易\trunk\sources\marketdatacenter\hundsunh5sdkapi\hundsunh5sdkapi_impl.cpp(1295): warning C4244: “=”: 从“uint64”转换到“long”，可能丢失数据
+     1>d:\hs\策略交易\trunk\sources\marketdatacenter\hundsunh5sdkapi\hundsunh5sdkapi_impl.cpp(1297): warning C4244: “=”: 从“uint64”转换到“long”，可能丢失数据
+     1>d:\hs\策略交易\trunk\sources\marketdatacenter\hundsunh5sdkapi\hundsunh5sdkapi_impl.cpp(1472): warning C4244: “=”: 从“uint64”转换到“long”，可能丢失数据
+     1>d:\hs\策略交易\trunk\sources\marketdatacenter\hundsunh5sdkapi\hundsunh5sdkapi_impl.cpp(1499): warning C4244: “=”: 从“uint64”转换到“long”，可能丢失数据
+     1>d:\hs\策略交易\trunk\sources\marketdatacenter\hundsunh5sdkapi\hundsunh5sdkapi_impl.cpp(1637): warning C4244: “=”: 从“uint64”转换到“long”，可能丢失数据
+     1>d:\hs\策略交易\trunk\sources\marketdatacenter\hundsunh5sdkapi\hundsunh5sdkapi_impl.cpp(1639): warning C4244: “=”: 从“uint64”转换到“long”，可能丢失数据
+     1>d:\hs\策略交易\trunk\sources\marketdatacenter\hundsunh5sdkapi\hundsunh5sdkapi_impl.cpp(1645): warning C4244: “=”: 从“uint64”转换到“long”，可能丢失数据
+     1>d:\hs\策略交易\trunk\sources\marketdatacenter\hundsunh5sdkapi\hundsunh5sdkapi_impl.cpp(1647): warning C4244: “=”: 从“uint64”转换到“long”，可能丢失数据
+     1>d:\hs\策略交易\trunk\sources\marketdatacenter\hundsunh5sdkapi\hundsunh5sdkapi_impl.cpp(1649): warning C4244: “=”: 从“uint64”转换到“long”，可能丢失数据
+     1>d:\hs\策略交易\trunk\sources\marketdatacenter\hundsunh5sdkapi\hundsunh5sdkapi_impl.cpp(1651): warning C4244: “=”: 从“uint64”转换到“long”，可能丢失数据
+     1>d:\hs\策略交易\trunk\sources\marketdatacenter\hundsunh5sdkapi\hundsunh5sdkapi_impl.cpp(1653): warning C4244: “=”: 从“uint64”转换到“long”，可能丢失数据
+     1>d:\hs\策略交易\trunk\sources\marketdatacenter\hundsunh5sdkapi\hundsunh5sdkapi_impl.cpp(1714): warning C4244: “=”: 从“uint64”转换到“long”，可能丢失数据
+     1>d:\hs\策略交易\trunk\sources\marketdatacenter\hundsunh5sdkapi\hundsunh5sdkapi_impl.cpp(1716): warning C4244: “=”: 从“uint64”转换到“long”，可能丢失数据
+     1>d:\hs\策略交易\trunk\sources\marketdatacenter\hundsunh5sdkapi\hundsunh5sdkapi_impl.cpp(1771): warning C4244: “=”: 从“uint64”转换到“long”，可能丢失数据
+     1>d:\hs\策略交易\trunk\sources\marketdatacenter\hundsunh5sdkapi\hundsunh5sdkapi_impl.cpp(1773): warning C4244: “=”: 从“uint64”转换到“long”，可能丢失数据
+     1>d:\hs\策略交易\trunk\sources\marketdatacenter\hundsunh5sdkapi\hundsunh5sdkapi_impl.cpp(1832): warning C4244: “=”: 从“uint64”转换到“long”，可能丢失数据
+     1>d:\hs\策略交易\trunk\sources\marketdatacenter\hundsunh5sdkapi\hundsunh5sdkapi_impl.cpp(1834): warning C4244: “=”: 从“uint64”转换到“long”，可能丢失数据
+     1>d:\hs\策略交易\trunk\sources\marketdatacenter\hundsunh5sdkapi\hundsunh5sdkapi_impl.cpp(1887): warning C4244: “=”: 从“uint64”转换到“long”，可能丢失数据
+     1>d:\hs\策略交易\trunk\sources\marketdatacenter\hundsunh5sdkapi\hundsunh5sdkapi_impl.cpp(1889): warning C4244: “=”: 从“uint64”转换到“long”，可能丢失数据
+     1>d:\hs\策略交易\trunk\sources\marketdatacenter\hundsunh5sdkapi\hundsunh5sdkapi_impl.cpp(1948): warning C4244: “=”: 从“uint64”转换到“long”，可能丢失数据
+     1>d:\hs\策略交易\trunk\sources\marketdatacenter\hundsunh5sdkapi\hundsunh5sdkapi_impl.cpp(1950): warning C4244: “=”: 从“uint64”转换到“long”，可能丢失数据
+     1>d:\hs\策略交易\trunk\sources\marketdatacenter\hundsunh5sdkapi\hundsunh5sdkapi_impl.cpp(2017): warning C4244: “=”: 从“uint64”转换到“long”，可能丢失数据
+     1>d:\hs\策略交易\trunk\sources\marketdatacenter\hundsunh5sdkapi\hundsunh5sdkapi_impl.cpp(2019): warning C4244: “=”: 从“uint64”转换到“long”，可能丢失数据
+     1>d:\hs\策略交易\trunk\sources\marketdatacenter\hundsunh5sdkapi\hundsunh5sdkapi_impl.cpp(2021): warning C4244: “=”: 从“uint64”转换到“long”，可能丢失数据
+     1>d:\hs\策略交易\trunk\sources\marketdatacenter\hundsunh5sdkapi\hundsunh5sdkapi_impl.cpp(2076): warning C4244: “=”: 从“uint64”转换到“long”，可能丢失数据
+     1>d:\hs\策略交易\trunk\sources\marketdatacenter\hundsunh5sdkapi\hundsunh5sdkapi_impl.cpp(2078): warning C4244: “=”: 从“uint64”转换到“long”，可能丢失数据
+         public.cpp
+     1>d:\hs\策略交易\trunk\sources\marketdatacenter\common\public.cpp(183): warning C4244: “=”: 从“LONG64”转换到“long”，可能丢失数据
+     1>d:\hs\策略交易\trunk\sources\marketdatacenter\common\public.cpp(184): warning C4244: “=”: 从“LONG64”转换到“long”，可能丢失数据
+         h5sdk_impl.cpp
+         正在生成代码...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\HS\策略交易\trunk\Sources\MarketDataCenter\Build\..\bin\Debug\HundsunH5sdkApi.dll" /INCREMENTAL /NOLOGO /LIBPATH:..\lib h5sdk.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\HS\策略交易\trunk\Sources\MarketDataCenter\Build\..\bin\Debug\HundsunH5sdkApi.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\HS\策略交易\trunk\Sources\MarketDataCenter\Build\..\bin\Debug\HundsunH5sdkApi.lib" /MACHINE:X86 /DLL obj\h5sdk_impl.obj
+         obj\public.obj
+         obj\HundsunH5sdkApi_impl.obj
+         HundsunH5sdkApi.vcxproj -> D:\HS\策略交易\trunk\Sources\MarketDataCenter\Build\..\bin\Debug\HundsunH5sdkApi.dll
+     1>已完成生成项目“D:\HS\策略交易\trunk\Sources\MarketDataCenter\HundsunH5sdkApi\HundsunH5sdkApi.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:08.87

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="gb2312"?>
+<ranges>
+  <accountinfo>
+    <account>66609557</account>
+    <pwd>080022</pwd>
+    <serverip>tcp://180.166.103.34:41205</serverip>
+    <apitype>CTP</apitype>
+    <brokeid>6666</brokeid>
+  </accountinfo>
+</ranges>

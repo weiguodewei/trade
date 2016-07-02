@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="gb2312"?>
+<strategy_bak>
+  <strategy_case status="0" id="1abec89f-8a9b-4a17-999b-9ddfc82b8f92">
+    <name>新高突破买入</name>
+    <params />
+    <contract_postion />
+  </strategy_case>
+  <strategy_case status="0" id="bc068406-a1c1-4a2d-a9b5-0ca3691ba292">
+    <name>新高突破买入</name>
+    <params>
+      <param name="交易合约" value="300498" />
+      <param name="日线周期" value="30" />
+      <param name="新高天数" value="20" />
+      <param name="震荡幅度" value="0.300" />
+      <param name="止损率" value="0.080" />
+      <param name="回调率" value="0.150" />
+      <param name="止盈率" value="0.200" />
+      <param name="初始权益" value="600.000" />
+      <param name="同时开仓数" value="0" />
+      <param name="手续费率" value="0.001" />
+      <param name="是否复利" value="0" />
+      <param name="是否下单" value="1" />
+      <param name="是否参考20日均线" value="0" />
+      <param name="账户" value="1" />
+      <param name="" value="" />
+    </params>
+    <contract_postion />
+  </strategy_case>
+  <strategy_case status="0" id="f42a5c9f-1fb4-40fe-adff-458541a157c9">
+    <name>新高突破买入</name>
+    <params>
+      <param name="交易合约" value="300325" />
+      <param name="日线周期" value="30" />
+      <param name="新高天数" value="20" />
+      <param name="震荡幅度" value="0.300" />
+      <param name="止损率" value="0.080" />
+      <param name="回调率" value="0.150" />
+      <param name="止盈率" value="0.200" />
+      <param name="初始权益" value="600.000" />
+      <param name="同时开仓数" value="0" />
+      <param name="手续费率" value="0.001" />
+      <param name="是否复利" value="0" />
+      <param name="是否下单" value="1" />
+      <param name="是否参考20日均线" value="0" />
+      <param name="账户" value="610000000052" />
+      <param name="" value="" />
+    </params>
+    <contract_postion />
+  </strategy_case>
+  <strategy_case status="0" id="73c6bde0-e313-44ef-8971-4da7e7a82822">
+    <name>新高突破买入</name>
+    <params>
+      <param name="交易合约" value="300498" />
+      <param name="日线周期" value="30" />
+      <param name="新高天数" value="20" />
+      <param name="震荡幅度" value="0.300" />
+      <param name="止损率" value="0.080" />
+      <param name="回调率" value="0.150" />
+      <param name="止盈率" value="0.200" />
+      <param name="初始权益" value="600.000" />
+      <param name="同时开仓数" value="1" />
+      <param name="手续费率" value="0.001" />
+      <param name="是否复利" value="0" />
+      <param name="是否下单" value="1" />
+      <param name="是否参考20日均线" value="0" />
+      <param name="账户" value="610000000052" />
+      <param name="" value="" />
+    </params>
+    <contract_postion>
+      <contract code="000886" name="海南高速" postion="100" open_price="5.97" dir="0" open_time="20160505 143353" high_price="5.98" />
+    </contract_postion>
+  </strategy_case>
+  <strategy_case status="0" id="26444479-78ba-4c77-a169-29e517880b26">
+    <name>新高突破买入</name>
+    <params>
+      <param name="交易合约" value="603799" />
+      <param name="日线周期" value="30" />
+      <param name="新高天数" value="20" />
+      <param name="震荡幅度" value="0.300" />
+      <param name="止损率" value="0.000" />
+      <param name="回调率" value="0.150" />
+      <param name="止盈率" value="0.050" />
+      <param name="初始权益" value="20000.000" />
+      <param name="同时开仓数" value="2" />
+      <param name="手续费率" value="0.001" />
+      <param name="是否复利" value="0" />
+      <param name="是否下单" value="1" />
+      <param name="是否参考20日均线" value="0" />
+      <param name="账户" value="57152456" />
+      <param name="" value="" />
+    </params>
+    <contract_postion>
+      <contract code="600132" name="重庆啤酒" postion="600" open_price="15.4" dir="0" open_time="20160517 134200" high_price="15.51" />
+      <contract code="603799" name="华友钴业" postion="300" open_price="31.87" dir="0" open_time="20160517 134155" high_price="31.88" />
+    </contract_postion>
+  </strategy_case>
+  <strategy_case status="0" id="153256b5-9939-4f2d-83f4-ecfc6e84d7d0">
+    <name>新高突破买入</name>
+    <params>
+      <param name="交易合约" value="300418" />
+      <param name="日线周期" value="30" />
+      <param name="新高天数" value="20" />
+      <param name="震荡幅度" value="0.300" />
+      <param name="止损率" value="0.080" />
+      <param name="回调率" value="0.150" />
+      <param name="止盈率" value="0.200" />
+      <param name="初始权益" value="2000.000" />
+      <param name="同时开仓数" value="5" />
+      <param name="手续费率" value="0.001" />
+      <param name="是否复利" value="0" />
+      <param name="是否下单" value="1" />
+      <param name="是否参考20日均线" value="0" />
+      <param name="账户" value="10000013" />
+      <param name="" value="" />
+    </params>
+    <contract_postion>
+      <contract code="000886" name="海南高速" postion="100" open_price="5.95" dir="0" open_time="20160505 142601" high_price="5.96" />
+    </contract_postion>
+  </strategy_case>
+  <strategy_case status="0" id="f5808ac5-6d2f-4aa4-9274-df33cf74769c">
+    <name>商品套利策略</name>
+    <params>
+      <param name="合约一" value="rb1610" />
+      <param name="合约二" value="rb1701" />
+      <param name="是否标准合约" value="0" />
+      <param name="开仓条件" value="&gt;" />
+      <param name="价差门限" value="1.00" />
+      <param name="开仓数量" value="10" />
+      <param name="平仓条件一" value="&lt;=" />
+      <param name="平仓价差一" value="100.00" />
+      <param name="平仓条件二" value="" />
+      <param name="平仓价差二" value="0.00" />
+      <param name="启用策略执行下单" value="0" />
+      <param name="优先开仓合约" value="1" />
+      <param name="每天开仓次数小于" value="1000" />
+      <param name="下单账号" value="041249" />
+      <param name="开仓方向" value="1" />
+    </params>
+    <contract_postion>
+      <contract code="rb1610" name="&#xA;" postion="2" open_price="2063" dir="1" open_time="20160620 14:07:56" />
+      <contract code="rb1701" name="&#xA;" postion="5" open_price="2031" dir="0" open_time="20160620 14:07:58" />
+    </contract_postion>
+  </strategy_case>
+  <strategy_case status="0" id="ee7ca4a2-fdb6-40ff-b8d8-8ceb312024c8">
+    <name>商品套利策略</name>
+    <params>
+      <param name="合约一" value="RM701" />
+      <param name="合约二" value="RM705" />
+      <param name="是否标准合约" value="0" />
+      <param name="开仓条件" value="&gt;" />
+      <param name="价差门限" value="1.00" />
+      <param name="开仓数量" value="5" />
+      <param name="平仓条件一" value="" />
+      <param name="平仓价差一" value="0.00" />
+      <param name="平仓条件二" value="" />
+      <param name="平仓价差二" value="0.00" />
+      <param name="启用策略执行下单" value="0" />
+      <param name="优先开仓合约" value="1" />
+      <param name="每天开仓次数小于" value="100" />
+      <param name="下单账号" value="041249" />
+      <param name="开仓方向" value="1" />
+    </params>
+    <contract_postion>
+      <contract code="RM701" name="	" postion="2" open_price="2482" dir="1" open_time="20160620 14:08:25" />
+      <contract code="RM705" name="	" postion="2" open_price="2443" dir="0" open_time="20160620 14:08:23" />
+    </contract_postion>
+  </strategy_case>
+  <strategy_case status="0" id="abcda987-7a70-467a-b78e-2cc33f33f490">
+    <name>商品套利策略</name>
+    <params>
+      <param name="合约一" value="rb1610" />
+      <param name="合约二" value="rb1701" />
+      <param name="是否标准合约" value="0" />
+      <param name="开仓条件" value="&gt;" />
+      <param name="价差门限" value="1.00" />
+      <param name="开仓数量" value="10" />
+      <param name="平仓条件一" value="" />
+      <param name="平仓价差一" value="0.00" />
+      <param name="平仓条件二" value="" />
+      <param name="平仓价差二" value="0.00" />
+      <param name="启用策略执行下单" value="1" />
+      <param name="优先开仓合约" value="1" />
+      <param name="每天开仓次数小于" value="1000" />
+      <param name="下单账号" value="041249" />
+      <param name="开仓方向" value="1" />
+    </params>
+    <contract_postion>
+      <contract code="rb1610" name="&#xA;" postion="2" open_price="2064" dir="1" open_time="" />
+      <contract code="rb1701" name="&#xA;" postion="5" open_price="2035" dir="0" open_time="20160620 14:42:36" />
+    </contract_postion>
+  </strategy_case>
+</strategy_bak>

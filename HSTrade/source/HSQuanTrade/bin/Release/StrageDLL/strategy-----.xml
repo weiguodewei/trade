@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="gb2312"?>
+<strategy_bak>
+  <strategy_case status="0" id="1abec89f-8a9b-4a17-999b-9ddfc82b8f92">
+    <name>新高突破买入</name>
+    <params />
+    <contract_postion />
+  </strategy_case>
+  <strategy_case status="0" id="26444479-78ba-4c77-a169-29e517880b26">
+    <name>新高突破买入</name>
+    <params>
+      <param name="交易合约" value="300498" />
+      <param name="日线周期" value="30" />
+      <param name="新高天数" value="20" />
+      <param name="震荡幅度" value="0.300" />
+      <param name="止损率" value="0.000" />
+      <param name="回调率" value="0.150" />
+      <param name="止盈率" value="0.050" />
+      <param name="初始权益" value="20000.000" />
+      <param name="同时开仓数" value="2" />
+      <param name="手续费率" value="0.001" />
+      <param name="是否复利" value="0" />
+      <param name="是否下单" value="1" />
+      <param name="是否参考20日均线" value="0" />
+      <param name="账户" value="57152456" />
+      <param name="" value="" />
+    </params>
+    <contract_postion>
+      <contract code="002182" name="云海金属" postion="600" open_price="15.933" dir="0" open_time="20160425 093007" high_price="16.21" />
+      <contract code="600132" name="重庆啤酒" postion="600" open_price="14.472" dir="0" open_time="20160503 093007" high_price="14.55" />
+      <contract code="600313" name="农发种业" postion="300" open_price="12.707" dir="0" open_time="20160428 093007" high_price="13.1" />
+    </contract_postion>
+  </strategy_case>
+  <strategy_case status="0" id="153256b5-9939-4f2d-83f4-ecfc6e84d7d0">
+    <name>新高突破买入</name>
+    <params>
+      <param name="交易合约" value="002568" />
+      <param name="日线周期" value="30" />
+      <param name="新高天数" value="20" />
+      <param name="震荡幅度" value="0.300" />
+      <param name="止损率" value="0.080" />
+      <param name="回调率" value="0.150" />
+      <param name="止盈率" value="0.200" />
+      <param name="初始权益" value="2000.000" />
+      <param name="同时开仓数" value="5" />
+      <param name="手续费率" value="0.001" />
+      <param name="是否复利" value="0" />
+      <param name="是否下单" value="1" />
+      <param name="是否参考20日均线" value="0" />
+      <param name="账户" value="10000013" />
+      <param name="" value="" />
+    </params>
+    <contract_postion>
+      <contract code="000886" name="海南高速" postion="100" open_price="5.95" dir="0" open_time="20160505 142601" high_price="5.96" />
+      <contract code="600888" name="新疆众和" postion="100" open_price="7.9" dir="0" open_time="20160505 142529" high_price="7.91" />
+    </contract_postion>
+  </strategy_case>
+  <strategy_case status="0" id="bc068406-a1c1-4a2d-a9b5-0ca3691ba292">
+    <name>新高突破买入</name>
+    <params>
+      <param name="交易合约" value="600135" />
+      <param name="日线周期" value="30" />
+      <param name="新高天数" value="20" />
+      <param name="震荡幅度" value="0.300" />
+      <param name="止损率" value="0.080" />
+      <param name="回调率" value="0.150" />
+      <param name="止盈率" value="0.200" />
+      <param name="初始权益" value="600.000" />
+      <param name="同时开仓数" value="0" />
+      <param name="手续费率" value="0.001" />
+      <param name="是否复利" value="0" />
+      <param name="是否下单" value="1" />
+      <param name="是否参考20日均线" value="0" />
+      <param name="账户" value="1" />
+      <param name="" value="" />
+    </params>
+    <contract_postion />
+  </strategy_case>
+  <strategy_case status="0" id="f42a5c9f-1fb4-40fe-adff-458541a157c9">
+    <name>新高突破买入</name>
+    <params>
+      <param name="交易合约" value="601678" />
+      <param name="日线周期" value="30" />
+      <param name="新高天数" value="20" />
+      <param name="震荡幅度" value="0.300" />
+      <param name="止损率" value="0.080" />
+      <param name="回调率" value="0.150" />
+      <param name="止盈率" value="0.200" />
+      <param name="初始权益" value="600.000" />
+      <param name="同时开仓数" value="0" />
+      <param name="手续费率" value="0.001" />
+      <param name="是否复利" value="0" />
+      <param name="是否下单" value="1" />
+      <param name="是否参考20日均线" value="0" />
+      <param name="账户" value="610000000052" />
+      <param name="" value="" />
+    </params>
+    <contract_postion />
+  </strategy_case>
+  <strategy_case status="0" id="73c6bde0-e313-44ef-8971-4da7e7a82822">
+    <name>新高突破买入</name>
+    <params>
+      <param name="交易合约" value="603169" />
+      <param name="日线周期" value="30" />
+      <param name="新高天数" value="20" />
+      <param name="震荡幅度" value="0.300" />
+      <param name="止损率" value="0.080" />
+      <param name="回调率" value="0.150" />
+      <param name="止盈率" value="0.010" />
+      <param name="初始权益" value="600.000" />
+      <param name="同时开仓数" value="0" />
+      <param name="手续费率" value="0.001" />
+      <param name="是否复利" value="0" />
+      <param name="是否下单" value="1" />
+      <param name="是否参考20日均线" value="0" />
+      <param name="账户" value="610000000052" />
+      <param name="" value="" />
+    </params>
+    <contract_postion />
+  </strategy_case>
+</strategy_bak>

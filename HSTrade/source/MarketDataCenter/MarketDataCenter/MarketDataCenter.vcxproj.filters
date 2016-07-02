@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>{fcddaa87-9892-4709-b97b-7ee0c7a968b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MarketDataCenter">
+      <UniqueIdentifier>{ffe1b51a-7e13-4473-9c9c-975de6630ee2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include">
+      <UniqueIdentifier>{7798ecb5-d0af-40c9-b2e0-fa4a5ea0e95f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MarketDataCenter_impl.cpp">
+      <Filter>MarketDataCenter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\dbf.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\h5_impl.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\dbf_impl.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="MarketDataSpi.cpp">
+      <Filter>MarketDataCenter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\public.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Common\public.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\HundsunMdCenterStruct.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\HundsunMdCenterApi.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="MarketDataCenter_impl.h">
+      <Filter>MarketDataCenter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\dbf.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\h5apistddef.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\h5hq_api_interface.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\h5hq_const_define.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\h5hq_data_interface.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\h5_impl.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\dbf_impl.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="MarketDataSpi.h">
+      <Filter>MarketDataCenter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\HundsunFutuMdApi.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\HundsunFutuUserApiStruct.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\HundsunH5sdkApi.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\HundsunH5sdkUserApiStruct.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

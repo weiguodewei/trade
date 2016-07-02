@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="gb2312"?>
+<etf_bak>
+  <etf_case month="5">
+    <order_info />
+  </etf_case>
+  <etf_case month="6">
+    <order_info>
+      <order no="0" time="09:30:00" account="10000523" code1="10000523" price1="0.0220" code2="10000524" price2="0.0065" code3="10000450" price3="0.0001" code4="10000455" price4="0.134" duijia="0.0074" paidui="0.0098/0.0083" condition="99999" />
+    </order_info>
+  </etf_case>
+</etf_bak>

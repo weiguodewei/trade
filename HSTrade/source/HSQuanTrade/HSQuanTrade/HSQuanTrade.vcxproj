@@ -1,0 +1,260 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{80AB123F-86B9-420B-B5B9-4E2DE6CB04B9}</ProjectGuid>
+    <RootNamespace>HSQuanTrade</RootNamespace>
+    <Keyword>MFCActiveXProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <TargetExt>.ocx</TargetExt>
+    <OutDir>$(SolutionDir)\bin\$(Configuration)\</OutDir>
+    <IncludePath>F:\Program_dev\Visual Leak Detector\include;$(IncludePath)</IncludePath>
+    <LibraryPath>F:\Program_dev\Visual Leak Detector\lib\Win32;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <TargetExt>.ocx</TargetExt>
+    <OutDir>$(SolutionDir)\bin\$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_USRDLL;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(SolutionDir)\HSQuanTrade\include;C:\Program Files (x86)\Visual Leak Detector\include;$(SolutionDir)\PublicData;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <BrowseInformation>true</BrowseInformation>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ModuleDefinitionFile>.\HSQuanTrade.def</ModuleDefinitionFile>
+      <OutputFile>$(OutDir)$(ProjectName).ocx</OutputFile>
+      <RegisterOutput>true</RegisterOutput>
+      <AdditionalLibraryDirectories>$(SolutionDir)\HSQuanTrade\lib;C:\Program Files (x86)\Visual Leak Detector\lib\Win32;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>Iphlpapi.lib;Ws2_32.lib;Dbghelp.lib;t2sdk.lib;thosttraderapi.lib;MarketDataCenter.lib;thostmduserapi.lib;USTPtraderapi.lib;USTPmduserapi.lib;HundsunTraderApi.lib;PublicData.lib</AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>$(IntDir)HSQuanTrade.tlb</TypeLibraryName>
+      <HeaderFileName>$(ProjectName)idl.h</HeaderFileName>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Bscmake>
+      <PreserveSbr>true</PreserveSbr>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_USRDLL;_CRT_SECURE_NO_WARNINGS;_JEFF_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(SolutionDir)\HSQuanTrade\include;$(SolutionDir)\PublicData;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <ModuleDefinitionFile>.\HSQuanTrade.def</ModuleDefinitionFile>
+      <OutputFile>$(OutDir)$(ProjectName).ocx</OutputFile>
+      <RegisterOutput>true</RegisterOutput>
+      <AdditionalLibraryDirectories>$(SolutionDir)\HSQuanTrade\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>Iphlpapi.lib;Ws2_32.lib;Dbghelp.lib;t2sdk.lib;thosttraderapi.lib;MarketDataCenter.lib;thostmduserapi.lib;USTPtraderapi.lib;USTPmduserapi.lib;HundsunTraderApi.lib;PublicData.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <LinkTimeCodeGeneration>UseLinkTimeCodeGeneration</LinkTimeCodeGeneration>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>$(IntDir)HSQuanTrade.tlb</TypeLibraryName>
+      <HeaderFileName>$(ProjectName)idl.h</HeaderFileName>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+    <Text Include="修改记录.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BaseTradeApi.cpp" />
+    <ClCompile Include="CinfoLogger.cpp" />
+    <ClCompile Include="CKdata.cpp" />
+    <ClCompile Include="COrderEx.cpp" />
+    <ClCompile Include="CTPTrade.cpp" />
+    <ClCompile Include="EasyThread.cpp" />
+    <ClCompile Include="FeimaMduserSpi.cpp" />
+    <ClCompile Include="FeimaTraderSpi.cpp" />
+    <ClCompile Include="FuncDeal.cpp" />
+    <ClCompile Include="FunctionPub.cpp" />
+    <ClCompile Include="FundManager.cpp" />
+    <ClCompile Include="HSQuanTrade.cpp" />
+    <ClCompile Include="HSQuanTradeCtrl.cpp" />
+    <ClCompile Include="HSQuanTradePropPage.cpp" />
+    <ClCompile Include="KDataEx.cpp" />
+    <ClCompile Include="mdSpi.cpp" />
+    <ClCompile Include="MdSpiCTP.cpp" />
+    <ClCompile Include="MgServerSocket.cpp" />
+    <ClCompile Include="Order.cpp" />
+    <ClCompile Include="other\tinystr.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="other\tinyxml.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="other\tinyxmlerror.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="other\tinyxmlparser.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="public.cpp" />
+    <ClCompile Include="SocketTrade.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="StragegyManager.cpp" />
+    <ClCompile Include="StrategyBase.cpp" />
+    <ClCompile Include="tool.cpp" />
+    <ClCompile Include="TradeInterface.cpp" />
+    <ClCompile Include="TraderSpi.cpp" />
+    <ClCompile Include="TradeStatistic2.cpp" />
+    <ClCompile Include="UFXOptTradeApi.cpp" />
+    <ClCompile Include="UFXOptTradeSpi.cpp" />
+    <ClCompile Include="UFXTrade.cpp" />
+    <ClCompile Include="UFXTradeEx.cpp" />
+    <ClCompile Include="UFXTradeSpiEx.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BaseTradeApi.h" />
+    <ClInclude Include="CDump.h" />
+    <ClInclude Include="CinfoLogger.h" />
+    <ClInclude Include="CKdata.h" />
+    <ClInclude Include="COrderEx.h" />
+    <ClInclude Include="CTPTrade.h" />
+    <ClInclude Include="EasyThread.h" />
+    <ClInclude Include="FeimaMduserSpi.h" />
+    <ClInclude Include="FeimaTraderSpi.h" />
+    <ClInclude Include="FuncDeal.h" />
+    <ClInclude Include="FunctionPub.h" />
+    <ClInclude Include="FundManager.h" />
+    <ClInclude Include="HSQuanTrade.h" />
+    <ClInclude Include="HSQuanTradeCtrl.h" />
+    <ClInclude Include="HSQuanTradePropPage.h" />
+    <ClInclude Include="include\HundsunMdApi.h" />
+    <ClInclude Include="include\HundsunMdCenterApi.h" />
+    <ClInclude Include="include\HundsunTraderApi.h" />
+    <ClInclude Include="include\MarkDataTraderApi.h" />
+    <ClInclude Include="include\MarkDataUserApiStruct.h" />
+    <ClInclude Include="include\MgServerSocket.h" />
+    <ClInclude Include="include\tinystr.h" />
+    <ClInclude Include="include\tinyxml.h" />
+    <ClInclude Include="KDataEx.h" />
+    <ClInclude Include="mdSpi.h" />
+    <ClInclude Include="MdSpiCTP.h" />
+    <ClInclude Include="Order.h" />
+    <ClInclude Include="public.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="SocketTrade.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="StragegyManager.h" />
+    <ClInclude Include="StrategyBase.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="tool.h" />
+    <ClInclude Include="TradeCommHeaders.h" />
+    <ClInclude Include="TradeInterface.h" />
+    <ClInclude Include="TraderSpi.h" />
+    <ClInclude Include="TradeStatistic2.h" />
+    <ClInclude Include="typedefine.h" />
+    <ClInclude Include="UFXOptTradeApi.h" />
+    <ClInclude Include="UFXOptTradeSpi.h" />
+    <ClInclude Include="UFXTrade.h" />
+    <ClInclude Include="UFXTradeEx.h" />
+    <ClInclude Include="UFXTradeSpiEx.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="HSQuanTrade.def" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="HSQuanTrade.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Midl Include="HSQuanTrade.idl" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="HSQuanTrade.ico" />
+    <Image Include="HSQuanTradeCtrl.bmp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="HSQuanTrade.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

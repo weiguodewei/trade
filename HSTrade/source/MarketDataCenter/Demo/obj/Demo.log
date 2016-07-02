@@ -1,0 +1,23 @@
+﻿生成启动时间为 2016/3/25 9:14:42。
+     1>项目“D:\HS\策略交易\trunk\Sources\MarketDataCenter\Demo\Demo.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"D:\HS\策略交易\trunk\Sources\MarketDataCenter\Build\..\Common" /I"D:\HS\策略交易\trunk\Sources\MarketDataCenter\Build\..\Include" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _USRDLL /D _MBCS /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"obj\\" /Fd"obj\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ..\Common\public.cpp DBSpi.cpp main.cpp mdSpi.cpp
+         public.cpp
+     1>..\Common\public.cpp(183): warning C4244: “=”: 从“LONG64”转换到“long”，可能丢失数据
+     1>..\Common\public.cpp(184): warning C4244: “=”: 从“LONG64”转换到“long”，可能丢失数据
+         DBSpi.cpp
+         main.cpp
+         mdSpi.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\HS\策略交易\trunk\Sources\MarketDataCenter\Build\..\bin\Release\Demo.exe" /NOLOGO /LIBPATH:..\bin\Release /LIBPATH:..\lib Iphlpapi.lib Ws2_32.lib Dbghelp.lib MarketDataCenter.lib MarkDataTraderApi.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\HS\策略交易\trunk\Sources\MarketDataCenter\Build\..\bin\Release\Demo.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\HS\策略交易\trunk\Sources\MarketDataCenter\Build\..\bin\Release\Demo.lib" /MACHINE:X86 /SAFESEH obj\public.obj
+         obj\DBSpi.obj
+         obj\main.obj
+         obj\mdSpi.obj
+         正在生成代码
+         已完成代码的生成
+         Demo.vcxproj -> D:\HS\策略交易\trunk\Sources\MarketDataCenter\Build\..\bin\Release\Demo.exe
+     1>已完成生成项目“D:\HS\策略交易\trunk\Sources\MarketDataCenter\Demo\Demo.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:07.79

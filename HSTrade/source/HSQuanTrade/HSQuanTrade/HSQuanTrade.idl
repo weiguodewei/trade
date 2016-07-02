@@ -1,0 +1,76 @@
+// HSQuanTrade.idl : ActiveX 控件项目的类型库源。
+
+// 此文件将由 MIDL 编译器工具处理以
+// 产生类型库(HSQuanTrade.tlb)，该类型库将成为
+// HSQuanTrade.ocx.
+
+#include <olectl.h>
+#include <idispids.h>
+
+[ uuid(7868F789-7146-404C-A424-0B8D3BDECE50), version(1.0),
+  control ]
+library HSQuanTradeLib
+{
+	importlib(STDOLE_TLB);
+
+	//  CHSQuanTradeCtrl 的主调度接口
+	[ 
+		uuid(5E64DA04-4094-4246-9AD6-D76D5347B0A1)	
+	]
+	dispinterface _DHSQuanTrade
+	{
+		properties:
+			[id(20)] LONG BackTestStatus;
+	methods:
+
+			[id(DISPID_ABOUTBOX)] void AboutBox();
+			[id(1)] BSTR GetAllStrategy(LONG param1, BSTR param2);
+			[id(2)] BSTR GetStrategyParamInfo(BSTR strategyname);
+			[id(3)] BSTR SetStrategyParam(BSTR modelname,BSTR paramname, BSTR paramvalue);
+			[id(4)] BSTR AddRunStrategy(BSTR paramname);
+			[id(5)] BSTR StopStrategy(BSTR strategynname);
+			[id(6)] BSTR PauseStrategy(BSTR strategyname);
+			[id(7)] BSTR RunStrategy(BSTR strategyname);
+			[id(8)] BSTR GetStrategyStatusInfo(BSTR strategy);
+			[id(9)] BSTR Init(BSTR param1);
+			[id(10)] BSTR Exit(void);
+			[id(11)] BSTR GetParamValue(BSTR modelname, BSTR paramname);
+			[id(12)] BSTR GetStragyLogInfo(BSTR modelname);
+			[id(13)] BSTR GetStragyTradeSignalList(BSTR modelname);
+			[id(14)] BSTR StragegyBackTest(BSTR name, BSTR paramlist, LONG time1, LONG time2, BSTR coderanger, BSTR sCycle);
+			[id(15)] BSTR GetAllStockFilterName(void);
+			[id(16)] BSTR RunStockFilterStragegy(BSTR name, BSTR paramfield, BSTR paramvalue);
+			[id(17)] BSTR GetStockFilterStragegyParamInfo(BSTR name);
+			[id(18)] BSTR SetStockFilterStragegyParam(BSTR field, BSTR value);
+			[id(19)] BSTR RunStockFilter(BSTR name, BSTR field1, BSTR value1);
+			[id(21)] BSTR GetStrategyContext(BSTR sStrategyId);
+			[id(22)] BSTR SetStrategyContext(BSTR sStrategyId, BSTR sContext);
+	};
+
+	//  CHSQuanTradeCtrl 的事件调度接口
+
+	[ 
+		uuid(E2482DB0-6A90-4C95-9C65-3ABBAB4D14B4)	
+	]
+	dispinterface _DHSQuanTradeEvents
+	{
+		properties:
+			//  事件接口没有任何属性
+
+		methods:
+			[id(1)] void TradeNotify(LONG pamam1, LONG param2, BSTR param3, BSTR param4);
+			
+			[id(2)] void BackTestNotify(BSTR sCode, LONG lParam1, LONG lParam2, LONG lParam3, LONG lParam4);
+	};
+
+	//  CHSQuanTradeCtrl 的类信息
+	[
+		uuid(AD4ABDEA-8D04-4EBE-89DE-DA01E1EF355D)
+	]
+	coclass HSQuanTrade
+	{
+		[default] dispinterface _DHSQuanTrade;
+		[default, source] dispinterface _DHSQuanTradeEvents;
+	};
+
+};

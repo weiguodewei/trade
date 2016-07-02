@@ -1,0 +1,38 @@
+#####################[2016-03-04 09:07:55] begin to write log #########################
+[03-04 09:07:55]:[NOTICE]:[h5api.cpp, InitApi, 918]: [h5api][pid: 7464][Lib Version: v1.0.22]
+[03-04 09:07:55]:[NOTICE]:[h5api.cpp, InitApi, 989]: 配置为每个连接拥有独立业务处理线程.
+[03-04 09:07:55]:[NOTICE]:[h5api.cpp, InitApi, 995]: 业务处理线程最大消息积压个数:10000, 消息池内初始化消息个数为:1000.
+[03-04 09:07:55]:[NOTICE]:[h5api.cpp, InitApi, 1004]: loglevel = PUG_LOG_OPTION1 | PUG_LOG_OPTION2 | ...
+PUB_LOG_OPTIONS: [ PUB_LOG_ERROR(1) | PUB_LOG_ALARM(2) | PUB_LOG_NOTICE(4) | PUB_LOG_FILDBG(8) | PUB_LOG_DEBUG(16) ]
+[03-04 09:07:55]:[NOTICE]:[h5api.cpp, InitApi, 1008]: 原日志级别[loglevel = 7 [ PUB_LOG_ERROR(1) | PUB_LOG_ALARM(2) | PUB_LOG_NOTICE(4) ]]被设置成为[loglevel = 7 [ PUB_LOG_ERROR(1) | PUB_LOG_ALARM(2) | PUB_LOG_NOTICE(4) ]].
+[03-04 09:07:55]:[NOTICE]:[h5api.cpp, LoadConnectionConfig, 548]: 市场[0x101;0x102;0x10b]心跳间隔为10s.
+[03-04 09:07:55]:[NOTICE]:[market.h, CMarket::MarketCallback, 415]: 市场状态回调：市场[0x101], 市场序号[0], 市场状态[0]
+[03-04 09:07:55]:[NOTICE]:[market.h, CMarket::MarketCallback, 415]: 市场状态回调：市场[0x102], 市场序号[1], 市场状态[0]
+[03-04 09:07:55]:[NOTICE]:[market.h, CMarket::MarketCallback, 415]: 市场状态回调：市场[0x10b], 市场序号[2], 市场状态[0]
+[03-04 09:07:55]:[NOTICE]:[connection.cpp, CConnection::Start, 226]: 市场[0x101;0x102;0x10b]业务处理线程启动成功！
+[03-04 09:07:55]:[NOTICE]:[connection.cpp, CConnection::Start, 234]: 市场[0x101;0x102;0x10b]与行情服务器建立连接...
+[03-04 09:07:55]:[NOTICE]:[h5api.cpp, InitApi, 1067]: 连接状态监控线程启动成功！
+[03-04 09:07:55]:[NOTICE]:[h5api.cpp, InitApi, 1086]: h5api initialized successfully: config file[h5config.xml], connection count 1, market count 3!
+[03-04 09:07:56]:[NOTICE]:[connection.cpp, CConnection::OnConnect, 321]: 市场[0x101;0x102;0x10b][192.168.123.124:43513]与行情服务器[112.124.211.83:443]建立连接成功！
+[03-04 09:07:56]:[NOTICE]:[market.h, CMarket::MarketCallback, 415]: 市场状态回调：市场[0x101], 市场序号[0], 市场状态[2]
+[03-04 09:07:56]:[NOTICE]:[market.h, CMarket::MarketCallback, 415]: 市场状态回调：市场[0x102], 市场序号[1], 市场状态[2]
+[03-04 09:07:56]:[NOTICE]:[market.h, CMarket::MarketCallback, 415]: 市场状态回调：市场[0x10b], 市场序号[2], 市场状态[2]
+[03-04 09:07:56]:[NOTICE]:[connection.cpp, CConnection::ReqforNormalLogin, 913]: 市场[0x101;0x102;0x10b][192.168.123.124:43513]发送登录请求...
+[03-04 09:07:56]:[NOTICE]:[connection.cpp, CConnection::On_RT_LOGIN, 1122]: 市场[0x101;0x102;0x10b][192.168.123.124:43513]登录成功！
+[03-04 09:07:56]:[NOTICE]:[market.h, CMarket::MarketCallback, 415]: 市场状态回调：市场[0x101], 市场序号[0], 市场状态[3]
+[03-04 09:07:56]:[NOTICE]:[market.h, CMarket::MarketCallback, 415]: 市场状态回调：市场[0x102], 市场序号[1], 市场状态[3]
+[03-04 09:07:56]:[NOTICE]:[market.h, CMarket::MarketCallback, 415]: 市场状态回调：市场[0x10b], 市场序号[2], 市场状态[3]
+[03-04 09:07:56]:[NOTICE]:[connection.cpp, CConnection::ReqforIniMarket, 1051]: 市场[0x101;0x102;0x10b][192.168.123.124:43513]发送初始化请求...
+[03-04 09:07:59]:[NOTICE]:[connection.cpp, CConnection::On_RT_INITIALINFO, 1256]: 市场[0x101;0x102;0x10b][192.168.123.124:43513]收到初始化包！
+[03-04 09:07:59]:[NOTICE]:[market.cpp, CMarket::On_RT_INITIALINFO, 1486]: 市场[0x101]收到初始化包！
+[03-04 09:07:59]:[NOTICE]:[market.h, CMarket::MarketCallback, 415]: 市场状态回调：市场[0x101], 市场序号[0], 市场状态[4]
+[03-04 09:07:59]:[NOTICE]:[market.h, CMarket::MarketCallback, 415]: 市场状态回调：市场[0x101], 市场序号[0], 市场状态[6]
+[03-04 09:08:00]:[NOTICE]:[market.cpp, CMarket::On_RT_INITIALINFO, 1624]: 市场[0x101]初始化成功，代码个数为[8799-8799]！
+[03-04 09:08:00]:[NOTICE]:[market.cpp, CMarket::On_RT_INITIALINFO, 1486]: 市场[0x102]收到初始化包！
+[03-04 09:08:00]:[NOTICE]:[market.h, CMarket::MarketCallback, 415]: 市场状态回调：市场[0x102], 市场序号[1], 市场状态[4]
+[03-04 09:08:00]:[NOTICE]:[market.h, CMarket::MarketCallback, 415]: 市场状态回调：市场[0x102], 市场序号[1], 市场状态[6]
+[03-04 09:08:00]:[NOTICE]:[market.cpp, CMarket::On_RT_INITIALINFO, 1624]: 市场[0x102]初始化成功，代码个数为[4587-4587]！
+[03-04 09:08:00]:[NOTICE]:[market.cpp, CMarket::On_RT_INITIALINFO, 1486]: 市场[0x10b]收到初始化包！
+[03-04 09:08:00]:[NOTICE]:[market.h, CMarket::MarketCallback, 415]: 市场状态回调：市场[0x10b], 市场序号[2], 市场状态[4]
+[03-04 09:08:00]:[NOTICE]:[market.h, CMarket::MarketCallback, 415]: 市场状态回调：市场[0x10b], 市场序号[2], 市场状态[6]
+[03-04 09:08:01]:[NOTICE]:[market.cpp, CMarket::On_RT_INITIALINFO, 1624]: 市场[0x10b]初始化成功，代码个数为[5941-5941]！

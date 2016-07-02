@@ -1,0 +1,168 @@
+﻿生成启动时间为 2016/3/25 9:16:23。
+     1>项目“D:\HS\策略交易\trunk\Sources\MarketDataCenter\H5sdkDemo\H5sdkDemo.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"D:\HS\策略交易\trunk\Sources\MarketDataCenter\Build\..\Common" /I"D:\HS\策略交易\trunk\Sources\MarketDataCenter\Build\..\Include" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ..\Common\public.cpp main.cpp h5sdkSpi.cpp
+         public.cpp
+     1>d:\hs\策略交易\trunk\sources\marketdatacenter\common\public.h(53): error C2146: 语法错误: 缺少“;”(在标识符“CurrentTimeTag”的前面)
+     1>d:\hs\策略交易\trunk\sources\marketdatacenter\common\public.h(53): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>d:\hs\策略交易\trunk\sources\marketdatacenter\common\public.h(245): error C2146: 语法错误: 缺少“;”(在标识符“lock”的前面)
+                 d:\hs\策略交易\trunk\sources\marketdatacenter\common\public.h(292): 参见对正在编译的类 模板 实例化“CMessageQueue<T>”的引用
+     1>d:\hs\策略交易\trunk\sources\marketdatacenter\common\public.h(245): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>d:\hs\策略交易\trunk\sources\marketdatacenter\common\public.h(345): error C2146: 语法错误: 缺少“;”(在标识符“trd”的前面)
+     1>d:\hs\策略交易\trunk\sources\marketdatacenter\common\public.h(345): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>d:\hs\策略交易\trunk\sources\marketdatacenter\common\public.h(347): error C2146: 语法错误: 缺少“;”(在标识符“logLock”的前面)
+     1>d:\hs\策略交易\trunk\sources\marketdatacenter\common\public.h(347): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>d:\hs\策略交易\trunk\sources\marketdatacenter\common\public.h(315): error C2065: “logLock”: 未声明的标识符
+     1>d:\hs\策略交易\trunk\sources\marketdatacenter\common\public.h(315): error C2228: “.Lock”的左边必须有类/结构/联合
+                 类型是“'unknown-type'”
+     1>d:\hs\策略交易\trunk\sources\marketdatacenter\common\public.h(321): error C2065: “logLock”: 未声明的标识符
+     1>d:\hs\策略交易\trunk\sources\marketdatacenter\common\public.h(321): error C2228: “.UnLock”的左边必须有类/结构/联合
+                 类型是“'unknown-type'”
+     1>d:\hs\策略交易\trunk\sources\marketdatacenter\common\public.h(324): error C2065: “trd”: 未声明的标识符
+     1>d:\hs\策略交易\trunk\sources\marketdatacenter\common\public.h(324): error C2228: “.Start”的左边必须有类/结构/联合
+                 类型是“'unknown-type'”
+     1>d:\hs\策略交易\trunk\sources\marketdatacenter\common\public.h(329): error C2065: “logLock”: 未声明的标识符
+     1>d:\hs\策略交易\trunk\sources\marketdatacenter\common\public.h(329): error C2228: “.Lock”的左边必须有类/结构/联合
+                 类型是“'unknown-type'”
+     1>d:\hs\策略交易\trunk\sources\marketdatacenter\common\public.h(332): error C2065: “logLock”: 未声明的标识符
+     1>d:\hs\策略交易\trunk\sources\marketdatacenter\common\public.h(332): error C2228: “.UnLock”的左边必须有类/结构/联合
+                 类型是“'unknown-type'”
+     1>d:\hs\策略交易\trunk\sources\marketdatacenter\common\public.h(334): error C2065: “trd”: 未声明的标识符
+     1>d:\hs\策略交易\trunk\sources\marketdatacenter\common\public.h(334): error C2228: “.IsRunning”的左边必须有类/结构/联合
+                 类型是“'unknown-type'”
+     1>d:\hs\策略交易\trunk\sources\marketdatacenter\common\public.h(337): error C2065: “trd”: 未声明的标识符
+     1>d:\hs\策略交易\trunk\sources\marketdatacenter\common\public.h(337): error C2228: “.Join”的左边必须有类/结构/联合
+                 类型是“'unknown-type'”
+     1>..\Common\public.cpp(60): error C2065: “CP_UTF8”: 未声明的标识符
+     1>..\Common\public.cpp(60): error C3861: “MultiByteToWideChar”: 找不到标识符
+     1>..\Common\public.cpp(63): error C2065: “CP_UTF8”: 未声明的标识符
+     1>..\Common\public.cpp(63): error C3861: “MultiByteToWideChar”: 找不到标识符
+     1>..\Common\public.cpp(64): error C2065: “CP_ACP”: 未声明的标识符
+     1>..\Common\public.cpp(64): error C3861: “WideCharToMultiByte”: 找不到标识符
+     1>..\Common\public.cpp(67): error C2065: “CP_ACP”: 未声明的标识符
+     1>..\Common\public.cpp(67): error C3861: “WideCharToMultiByte”: 找不到标识符
+     1>..\Common\public.cpp(76): error C2065: “CP_ACP”: 未声明的标识符
+     1>..\Common\public.cpp(76): error C3861: “MultiByteToWideChar”: 找不到标识符
+     1>..\Common\public.cpp(79): error C2065: “CP_ACP”: 未声明的标识符
+     1>..\Common\public.cpp(79): error C3861: “MultiByteToWideChar”: 找不到标识符
+     1>..\Common\public.cpp(80): error C2065: “CP_UTF8”: 未声明的标识符
+     1>..\Common\public.cpp(80): error C3861: “WideCharToMultiByte”: 找不到标识符
+     1>..\Common\public.cpp(83): error C2065: “CP_UTF8”: 未声明的标识符
+     1>..\Common\public.cpp(83): error C3861: “WideCharToMultiByte”: 找不到标识符
+     1>..\Common\public.cpp(170): error C2146: 语法错误: 缺少“;”(在标识符“CurrentTimeTag”的前面)
+     1>..\Common\public.cpp(170): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>..\Common\public.cpp(170): error C2086: “int timeval”: 重定义
+                 d:\hs\策略交易\trunk\sources\marketdatacenter\common\public.h(53) : 参见“timeval”的声明
+     1>..\Common\public.cpp(171): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>..\Common\public.cpp(192): warning C4508: “CurrentTimeTag”: 函数应返回一个值；假定“void”返回类型
+     1>..\Common\public.cpp(211): error C2065: “SYSTEMTIME”: 未声明的标识符
+     1>..\Common\public.cpp(211): error C2146: 语法错误: 缺少“;”(在标识符“st”的前面)
+     1>..\Common\public.cpp(211): error C2065: “st”: 未声明的标识符
+     1>..\Common\public.cpp(211): error C2059: 语法错误:“{”
+     1>..\Common\public.cpp(211): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>..\Common\public.cpp(212): error C2065: “FILETIME”: 未声明的标识符
+     1>..\Common\public.cpp(212): error C2146: 语法错误: 缺少“;”(在标识符“ft”的前面)
+     1>..\Common\public.cpp(212): error C2065: “ft”: 未声明的标识符
+     1>..\Common\public.cpp(213): error C2065: “st”: 未声明的标识符
+     1>..\Common\public.cpp(213): error C2228: “.wYear”的左边必须有类/结构/联合
+                 类型是“'unknown-type'”
+     1>..\Common\public.cpp(214): error C2065: “st”: 未声明的标识符
+     1>..\Common\public.cpp(214): error C2228: “.wMonth”的左边必须有类/结构/联合
+                 类型是“'unknown-type'”
+     1>..\Common\public.cpp(215): error C2065: “st”: 未声明的标识符
+     1>..\Common\public.cpp(215): error C2228: “.wDay”的左边必须有类/结构/联合
+                 类型是“'unknown-type'”
+     1>..\Common\public.cpp(216): error C2065: “st”: 未声明的标识符
+     1>..\Common\public.cpp(216): error C2065: “ft”: 未声明的标识符
+     1>..\Common\public.cpp(216): error C3861: “SystemTimeToFileTime”: 找不到标识符
+     1>..\Common\public.cpp(217): error C2065: “ft”: 未声明的标识符
+     1>..\Common\public.cpp(218): error C2065: “ft”: 未声明的标识符
+     1>..\Common\public.cpp(218): error C2065: “st”: 未声明的标识符
+     1>..\Common\public.cpp(218): error C3861: “FileTimeToSystemTime”: 找不到标识符
+     1>..\Common\public.cpp(219): error C2065: “st”: 未声明的标识符
+     1>..\Common\public.cpp(219): error C2228: “.wYear”的左边必须有类/结构/联合
+                 类型是“'unknown-type'”
+     1>..\Common\public.cpp(219): error C2228: “.wMonth”的左边必须有类/结构/联合
+                 类型是“'unknown-type'”
+     1>..\Common\public.cpp(219): error C2228: “.wDay”的左边必须有类/结构/联合
+                 类型是“'unknown-type'”
+     1>..\Common\public.cpp(490): error C2065: “logLock”: 未声明的标识符
+     1>..\Common\public.cpp(490): error C2228: “.Lock”的左边必须有类/结构/联合
+                 类型是“'unknown-type'”
+     1>..\Common\public.cpp(498): error C2065: “logLock”: 未声明的标识符
+     1>..\Common\public.cpp(498): error C2228: “.UnLock”的左边必须有类/结构/联合
+                 类型是“'unknown-type'”
+     1>..\Common\public.cpp(503): error C2065: “logLock”: 未声明的标识符
+     1>..\Common\public.cpp(503): error C2228: “.Lock”的左边必须有类/结构/联合
+                 类型是“'unknown-type'”
+     1>..\Common\public.cpp(507): error C2065: “logLock”: 未声明的标识符
+     1>..\Common\public.cpp(507): error C2228: “.UnLock”的左边必须有类/结构/联合
+                 类型是“'unknown-type'”
+         main.cpp
+     1>D:\HS\策略交易\trunk\Sources\MarketDataCenter\Common\public.h(53): error C2146: 语法错误: 缺少“;”(在标识符“CurrentTimeTag”的前面)
+     1>D:\HS\策略交易\trunk\Sources\MarketDataCenter\Common\public.h(53): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>D:\HS\策略交易\trunk\Sources\MarketDataCenter\Common\public.h(245): error C2146: 语法错误: 缺少“;”(在标识符“lock”的前面)
+                 D:\HS\策略交易\trunk\Sources\MarketDataCenter\Common\public.h(292): 参见对正在编译的类 模板 实例化“CMessageQueue<T>”的引用
+     1>D:\HS\策略交易\trunk\Sources\MarketDataCenter\Common\public.h(245): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>D:\HS\策略交易\trunk\Sources\MarketDataCenter\Common\public.h(345): error C2146: 语法错误: 缺少“;”(在标识符“trd”的前面)
+     1>D:\HS\策略交易\trunk\Sources\MarketDataCenter\Common\public.h(345): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>D:\HS\策略交易\trunk\Sources\MarketDataCenter\Common\public.h(347): error C2146: 语法错误: 缺少“;”(在标识符“logLock”的前面)
+     1>D:\HS\策略交易\trunk\Sources\MarketDataCenter\Common\public.h(347): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>D:\HS\策略交易\trunk\Sources\MarketDataCenter\Common\public.h(315): error C2065: “logLock”: 未声明的标识符
+     1>D:\HS\策略交易\trunk\Sources\MarketDataCenter\Common\public.h(315): error C2228: “.Lock”的左边必须有类/结构/联合
+                 类型是“'unknown-type'”
+     1>D:\HS\策略交易\trunk\Sources\MarketDataCenter\Common\public.h(321): error C2065: “logLock”: 未声明的标识符
+     1>D:\HS\策略交易\trunk\Sources\MarketDataCenter\Common\public.h(321): error C2228: “.UnLock”的左边必须有类/结构/联合
+                 类型是“'unknown-type'”
+     1>D:\HS\策略交易\trunk\Sources\MarketDataCenter\Common\public.h(324): error C2065: “trd”: 未声明的标识符
+     1>D:\HS\策略交易\trunk\Sources\MarketDataCenter\Common\public.h(324): error C2228: “.Start”的左边必须有类/结构/联合
+                 类型是“'unknown-type'”
+     1>D:\HS\策略交易\trunk\Sources\MarketDataCenter\Common\public.h(329): error C2065: “logLock”: 未声明的标识符
+     1>D:\HS\策略交易\trunk\Sources\MarketDataCenter\Common\public.h(329): error C2228: “.Lock”的左边必须有类/结构/联合
+                 类型是“'unknown-type'”
+     1>D:\HS\策略交易\trunk\Sources\MarketDataCenter\Common\public.h(332): error C2065: “logLock”: 未声明的标识符
+     1>D:\HS\策略交易\trunk\Sources\MarketDataCenter\Common\public.h(332): error C2228: “.UnLock”的左边必须有类/结构/联合
+                 类型是“'unknown-type'”
+     1>D:\HS\策略交易\trunk\Sources\MarketDataCenter\Common\public.h(334): error C2065: “trd”: 未声明的标识符
+     1>D:\HS\策略交易\trunk\Sources\MarketDataCenter\Common\public.h(334): error C2228: “.IsRunning”的左边必须有类/结构/联合
+                 类型是“'unknown-type'”
+     1>D:\HS\策略交易\trunk\Sources\MarketDataCenter\Common\public.h(337): error C2065: “trd”: 未声明的标识符
+     1>D:\HS\策略交易\trunk\Sources\MarketDataCenter\Common\public.h(337): error C2228: “.Join”的左边必须有类/结构/联合
+                 类型是“'unknown-type'”
+     1>main.cpp(103): error C3861: “DeleteFile”: 找不到标识符
+         h5sdkSpi.cpp
+     1>D:\HS\策略交易\trunk\Sources\MarketDataCenter\Common\public.h(53): error C2146: 语法错误: 缺少“;”(在标识符“CurrentTimeTag”的前面)
+     1>D:\HS\策略交易\trunk\Sources\MarketDataCenter\Common\public.h(53): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>D:\HS\策略交易\trunk\Sources\MarketDataCenter\Common\public.h(245): error C2146: 语法错误: 缺少“;”(在标识符“lock”的前面)
+                 D:\HS\策略交易\trunk\Sources\MarketDataCenter\Common\public.h(292): 参见对正在编译的类 模板 实例化“CMessageQueue<T>”的引用
+     1>D:\HS\策略交易\trunk\Sources\MarketDataCenter\Common\public.h(245): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>D:\HS\策略交易\trunk\Sources\MarketDataCenter\Common\public.h(345): error C2146: 语法错误: 缺少“;”(在标识符“trd”的前面)
+     1>D:\HS\策略交易\trunk\Sources\MarketDataCenter\Common\public.h(345): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>D:\HS\策略交易\trunk\Sources\MarketDataCenter\Common\public.h(347): error C2146: 语法错误: 缺少“;”(在标识符“logLock”的前面)
+     1>D:\HS\策略交易\trunk\Sources\MarketDataCenter\Common\public.h(347): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>D:\HS\策略交易\trunk\Sources\MarketDataCenter\Common\public.h(315): error C2065: “logLock”: 未声明的标识符
+     1>D:\HS\策略交易\trunk\Sources\MarketDataCenter\Common\public.h(315): error C2228: “.Lock”的左边必须有类/结构/联合
+                 类型是“'unknown-type'”
+     1>D:\HS\策略交易\trunk\Sources\MarketDataCenter\Common\public.h(321): error C2065: “logLock”: 未声明的标识符
+     1>D:\HS\策略交易\trunk\Sources\MarketDataCenter\Common\public.h(321): error C2228: “.UnLock”的左边必须有类/结构/联合
+                 类型是“'unknown-type'”
+     1>D:\HS\策略交易\trunk\Sources\MarketDataCenter\Common\public.h(324): error C2065: “trd”: 未声明的标识符
+     1>D:\HS\策略交易\trunk\Sources\MarketDataCenter\Common\public.h(324): error C2228: “.Start”的左边必须有类/结构/联合
+                 类型是“'unknown-type'”
+     1>D:\HS\策略交易\trunk\Sources\MarketDataCenter\Common\public.h(329): error C2065: “logLock”: 未声明的标识符
+     1>D:\HS\策略交易\trunk\Sources\MarketDataCenter\Common\public.h(329): error C2228: “.Lock”的左边必须有类/结构/联合
+                 类型是“'unknown-type'”
+     1>D:\HS\策略交易\trunk\Sources\MarketDataCenter\Common\public.h(332): error C2065: “logLock”: 未声明的标识符
+     1>D:\HS\策略交易\trunk\Sources\MarketDataCenter\Common\public.h(332): error C2228: “.UnLock”的左边必须有类/结构/联合
+                 类型是“'unknown-type'”
+     1>D:\HS\策略交易\trunk\Sources\MarketDataCenter\Common\public.h(334): error C2065: “trd”: 未声明的标识符
+     1>D:\HS\策略交易\trunk\Sources\MarketDataCenter\Common\public.h(334): error C2228: “.IsRunning”的左边必须有类/结构/联合
+                 类型是“'unknown-type'”
+     1>D:\HS\策略交易\trunk\Sources\MarketDataCenter\Common\public.h(337): error C2065: “trd”: 未声明的标识符
+     1>D:\HS\策略交易\trunk\Sources\MarketDataCenter\Common\public.h(337): error C2228: “.Join”的左边必须有类/结构/联合
+                 类型是“'unknown-type'”
+     1>已完成生成项目“D:\HS\策略交易\trunk\Sources\MarketDataCenter\H5sdkDemo\H5sdkDemo.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:06.27

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ranges>
+  <codeinfo>
+    <code>TF1512</code>
+    <name>国债</name>
+    <subtype>ctp</subtype>
+  </codeinfo>
+  <ip>
+    <ufx>115.238.53.140:9006</ufx>
+    <ctp>tcp://180.168.212.228:41213</ctp>
+  </ip>
+</ranges>

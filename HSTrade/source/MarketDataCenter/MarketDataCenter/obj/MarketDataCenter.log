@@ -1,0 +1,31 @@
+﻿生成启动时间为 2016/6/17 17:16:15。
+     1>项目“D:\HS\策略交易\trunk\Sources\MarketDataCenter\MarketDataCenter\MarketDataCenter.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"D:\HS\策略交易\trunk\Sources\MarketDataCenter\MarketDataCenter\..\Common" /I"D:\HS\策略交易\trunk\Sources\MarketDataCenter\MarketDataCenter\..\Include" /I"D:\HS\策略交易\trunk\Sources\MarketDataCenter\MarketDataCenter\..\Include\h5sdk" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _USRDLL /D _WINDLL /D _MBCS /Gm- /EHsc /MTd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"obj\\" /Fd"obj\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ..\Common\dbf.cpp ..\Common\dbf_impl.cpp ..\Common\h5_impl.cpp ..\Common\public.cpp MarketDataCenter_impl.cpp MarketDataSpi.cpp
+         dbf.cpp
+         dbf_impl.cpp
+     1>..\Common\dbf_impl.cpp(213): warning C4101: “FieldSize”: 未引用的局部变量
+         h5_impl.cpp
+     1>..\Common\h5_impl.cpp(291): warning C4101: “m_DepthMarketData”: 未引用的局部变量
+     1>..\Common\h5_impl.cpp(289): warning C4101: “lpStockInfo”: 未引用的局部变量
+         public.cpp
+     1>..\Common\public.cpp(183): warning C4244: “=”: 从“LONG64”转换到“long”，可能丢失数据
+     1>..\Common\public.cpp(184): warning C4244: “=”: 从“LONG64”转换到“long”，可能丢失数据
+         MarketDataCenter_impl.cpp
+         MarketDataSpi.cpp
+     1>MarketDataSpi.cpp(174): warning C4244: “=”: 从“double”转换到“THundsunFtdcVolumeLongType”，可能丢失数据
+     1>MarketDataSpi.cpp(181): warning C4244: “=”: 从“double”转换到“THundsunFtdcVolumeType”，可能丢失数据
+     1>MarketDataSpi.cpp(183): warning C4244: “=”: 从“double”转换到“THundsunFtdcVolumeType”，可能丢失数据
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\HS\策略交易\trunk\Sources\MarketDataCenter\MarketDataCenter\..\bin\Release\MarketDataCenter.dll" /NOLOGO /LIBPATH:..\lib Iphlpapi.lib Ws2_32.lib Dbghelp.lib h5api.lib HundsunFutuMdApi.lib HundsunH5sdkApi.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\HS\策略交易\trunk\Sources\MarketDataCenter\MarketDataCenter\..\bin\Release\MarketDataCenter.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\HS\策略交易\trunk\Sources\MarketDataCenter\MarketDataCenter\..\bin\Release\MarketDataCenter.lib" /MACHINE:X86 /SAFESEH /DLL obj\dbf.obj
+         obj\dbf_impl.obj
+         obj\h5_impl.obj
+         obj\public.obj
+         obj\MarketDataCenter_impl.obj
+         obj\MarketDataSpi.obj
+     1>LINK : fatal error LNK1181: 无法打开输入文件“h5api.lib”
+     1>已完成生成项目“D:\HS\策略交易\trunk\Sources\MarketDataCenter\MarketDataCenter\MarketDataCenter.vcxproj”(Rebuild 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:07.27

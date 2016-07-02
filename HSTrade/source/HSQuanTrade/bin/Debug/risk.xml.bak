@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<risk>
+  <riskinfo account="82101435" open="0">
+    <margin>1111</margin>
+    <withdraw>10</withdraw>
+    <PL>200</PL>
+  </riskinfo>
+  <riskinfo account="041249" open="1">
+    <margin>20000</margin>
+    <withdraw>10</withdraw>
+    <PL>200</PL>
+  </riskinfo>
+</risk>

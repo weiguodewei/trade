@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Menu>
+	<visible>
+		<SysMS login="0">LoginMI,SetMI,ConnectMI,LogoutMI,</SysMS>
+		<TradeMS>StyRunMI,AddStyMI,LoadModelMI,TestModelMI,StockTradeMI,TaoLIMI,OptMI,</TradeMS>
+		<FormMS>PingPuMI,CengDieMI,</FormMS>
+		<HelpMS>AboutMI,TestOrderMI,TestExcelMI,</HelpMS>	
+	</visible>
+</Menu>
+
+          

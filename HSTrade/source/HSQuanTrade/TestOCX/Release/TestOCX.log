@@ -1,0 +1,87 @@
+﻿生成启动时间为 2015/12/17 15:08:54。
+     1>项目“D:\HS\策略交易\trunk\Sources\HSQuanTrade\TestOCX\TestOCX.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\TestOCX.pch" /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt TestOCXDlg.cpp
+         TestOCXDlg.cpp
+     1>TestOCXDlg.cpp(121): error C2664: “int CListCtrl::InsertColumn(int,LPCTSTR,int,int,int)”: 不能将参数 2 从“const char [4]”转换为“LPCTSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>TestOCXDlg.cpp(124): error C2039: “SetWindowTextA”: 不是“CWnd”的成员
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\atlmfc\include\afxwin.h(2273) : 参见“CWnd”的声明
+     1>TestOCXDlg.cpp(125): error C2039: “SetWindowTextA”: 不是“CWnd”的成员
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\atlmfc\include\afxwin.h(2273) : 参见“CWnd”的声明
+     1>TestOCXDlg.cpp(126): error C2039: “SetWindowTextA”: 不是“CWnd”的成员
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\atlmfc\include\afxwin.h(2273) : 参见“CWnd”的声明
+     1>TestOCXDlg.cpp(127): error C2039: “SetWindowTextA”: 不是“CWnd”的成员
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\atlmfc\include\afxwin.h(2273) : 参见“CWnd”的声明
+     1>TestOCXDlg.cpp(128): error C2039: “SetWindowTextA”: 不是“CWnd”的成员
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\atlmfc\include\afxwin.h(2273) : 参见“CWnd”的声明
+     1>TestOCXDlg.cpp(129): error C2039: “SetWindowTextA”: 不是“CWnd”的成员
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\atlmfc\include\afxwin.h(2273) : 参见“CWnd”的声明
+     1>TestOCXDlg.cpp(131): error C2039: “SetWindowTextA”: 不是“CWnd”的成员
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\atlmfc\include\afxwin.h(2273) : 参见“CWnd”的声明
+     1>TestOCXDlg.cpp(132): error C2039: “SetWindowTextA”: 不是“CWnd”的成员
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\atlmfc\include\afxwin.h(2273) : 参见“CWnd”的声明
+     1>TestOCXDlg.cpp(133): error C2039: “SetWindowTextA”: 不是“CWnd”的成员
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\atlmfc\include\afxwin.h(2273) : 参见“CWnd”的声明
+     1>TestOCXDlg.cpp(198): error C2664: “CHsquantradectrl1::Init”: 不能将参数 1 从“const char [63]”转换为“LPCTSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>TestOCXDlg.cpp(214): error C2664: “int CListCtrl::InsertItem(int,LPCTSTR)”: 不能将参数 2 从“char *”转换为“LPCTSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>TestOCXDlg.cpp(230): error C2664: “CHsquantradectrl1::Init”: 不能将参数 1 从“const char [29]”转换为“LPCTSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>TestOCXDlg.cpp(237): error C2664: “CHsquantradectrl1::Init”: 不能将参数 1 从“const char [57]”转换为“LPCTSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>TestOCXDlg.cpp(282): error C2664: “void ATL::CStringT<BaseType,StringTraits>::Format(const wchar_t *,...)”: 不能将参数 1 从“const char [34]”转换为“const wchar_t *”
+                 with
+                 [
+                     BaseType=wchar_t,
+                     StringTraits=StrTraitMFC_DLL<wchar_t>
+                 ]
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>TestOCXDlg.cpp(307): error C2664: “CHsquantradectrl1::AddRunStrategy”: 不能将参数 1 从“const char [61]”转换为“LPCTSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>TestOCXDlg.cpp(318): error C2664: “CHsquantradectrl1::GetStrategyLog”: 不能将参数 1 从“const char [25]”转换为“LPCTSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>TestOCXDlg.cpp(327): error C2664: “CHsquantradectrl1::GetStrategyLog”: 不能将参数 1 从“const char [65]”转换为“LPCTSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>TestOCXDlg.cpp(338): error C2664: “void ATL::CStringT<BaseType,StringTraits>::Format(const wchar_t *,...)”: 不能将参数 1 从“const char [3]”转换为“const wchar_t *”
+                 with
+                 [
+                     BaseType=wchar_t,
+                     StringTraits=StrTraitMFC_DLL<wchar_t>
+                 ]
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>TestOCXDlg.cpp(346): error C2664: “CHsquantradectrl1::GetParamValue”: 不能将参数 1 从“const char [25]”转换为“LPCTSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>TestOCXDlg.cpp(353): error C2664: “CHsquantradectrl1::GetParamValue”: 不能将参数 1 从“const char [25]”转换为“LPCTSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>TestOCXDlg.cpp(355): error C2664: “CHsquantradectrl1::GetParamValue”: 不能将参数 1 从“const char [25]”转换为“LPCTSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>TestOCXDlg.cpp(362): error C2664: “CHsquantradectrl1::Init”: 不能将参数 1 从“const char [9]”转换为“LPCTSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>TestOCXDlg.cpp(375): error C2664: “CHsquantradectrl1::Init”: 不能将参数 1 从“const char [62]”转换为“LPCTSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>TestOCXDlg.cpp(382): error C2664: “CHsquantradectrl1::Init”: 不能将参数 1 从“const char [56]”转换为“LPCTSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>TestOCXDlg.cpp(383): error C2664: “CHsquantradectrl1::Init”: 不能将参数 1 从“const char [56]”转换为“LPCTSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>TestOCXDlg.cpp(395): error C2440: “初始化”: 无法从“const char [39]”转换为“ATL::CStringT<BaseType,StringTraits>”
+                 with
+                 [
+                     BaseType=wchar_t,
+                     StringTraits=StrTraitMFC_DLL<wchar_t>
+                 ]
+                 class“ATL::CStringT<BaseType,StringTraits>”的构造函数声明为“explicit”
+                 with
+                 [
+                     BaseType=wchar_t,
+                     StringTraits=StrTraitMFC_DLL<wchar_t>
+                 ]
+     1>TestOCXDlg.cpp(408): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>TestOCXDlg.cpp(416): error C2664: “CHsquantradectrl1::StopStrategy”: 不能将参数 1 从“const char [1]”转换为“LPCTSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>已完成生成项目“D:\HS\策略交易\trunk\Sources\HSQuanTrade\TestOCX\TestOCX.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.66

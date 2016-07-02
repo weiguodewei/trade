@@ -1,0 +1,6 @@
+16:20:01     LoadRiskConfigSystem.ArgumentException: URL 不能为空。
+参数名: url
+   在 System.Xml.XmlTextReaderImpl..ctor(String url, XmlNameTable nt)
+   在 System.Xml.XmlDocument.Load(String filename)
+   在 HSQuanTradeMain.FormMain.LoadRiskConfig(String filename) 位置 d:\HS\策略交易\trunk\Sources\HSQuanTrade\HSQuanTradeMain\FormMain.cs:行号 839
+

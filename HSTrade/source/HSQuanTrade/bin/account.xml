@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="gb2312"?>
+<ranges>
+  <accountinfo>
+    <account>041249</account>
+    <pwd>032179WC</pwd>
+    <serverip>tcp://180.168.146.187:10000</serverip>
+    <apitype>CTP</apitype>
+    <brokeid>9999</brokeid>
+  </accountinfo>
+  <accountinfo>
+    <account>048374</account>
+    <pwd>qianchong123</pwd>
+    <serverip>tcp://180.168.146.187:10000</serverip>
+    <apitype>CTP</apitype>
+    <brokeid>9999</brokeid>
+  </accountinfo>
+  <accountinfo>
+    <account>10000013</account>
+    <pwd>111111</pwd>
+    <serverip>127.0.0.1</serverip>
+    <apitype>UFX_AUTO</apitype>
+    <brokeid>1</brokeid>
+  </accountinfo>
+  <accountinfo>
+    <account>610000000052</account>
+    <pwd>151027</pwd>
+    <serverip>127.0.0.1</serverip>
+    <apitype>UFX_AUTO</apitype>
+    <brokeid>1</brokeid>
+  </accountinfo>
+  <accountinfo>
+    <account>57152456</account>
+    <pwd>151027</pwd>
+    <serverip>127.0.0.1</serverip>
+    <apitype>UFX_AUTO</apitype>
+    <brokeid>1</brokeid>
+  </accountinfo>
+  <accountinfo>
+    <account>66609557</account>
+    <pwd>080022</pwd>
+    <serverip>tcp://180.166.103.34:41205</serverip>
+    <apitype>CTP</apitype>
+    <brokeid>6666</brokeid>
+  </accountinfo>
+</ranges>

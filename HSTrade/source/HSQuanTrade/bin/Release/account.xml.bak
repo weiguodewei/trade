@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="gb2312"?>
+<ranges>
+  <accountinfo>
+    <account>041249</account>
+    <pwd>032179WC</pwd>    
+    <serverip>tcp://180.168.146.187:10030</serverip>
+    <apitype>CTP</apitype>
+    <brokeid>9999</brokeid>
+  </accountinfo>
+  <accountinfo>
+    <account>101300095</account>
+    <pwd>300025</pwd>
+    <serverip>115.236.45.199:7221</serverip>
+    <apitype>UFX_OPT</apitype>
+    <brokeid>1</brokeid>
+  </accountinfo>
+  <accountinfo>
+    <account>100102488</account>
+    <pwd>151027</pwd>
+    <serverip>220.196.54.214:7221</serverip>
+    <apitype>UFX_OPT</apitype>
+    <brokeid>1</brokeid>
+  </accountinfo>
+  <accountinfo>
+    <account>57152456</account>
+    <pwd>151027</pwd>
+    <serverip>127.0.0.1</serverip>
+    <apitype>UFX_AUTO</apitype>
+    <brokeid>1</brokeid>
+  </accountinfo>
+</ranges>

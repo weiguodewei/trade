@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ranges>
+  <ip>
+    <ufx></ufx>
+    <ctp-->tcp://180.168.212.228:41213</ctp--> 
+    <ctp>tcp://180.168.146.187:10031</ctp> 
+  </ip>
+</ranges>

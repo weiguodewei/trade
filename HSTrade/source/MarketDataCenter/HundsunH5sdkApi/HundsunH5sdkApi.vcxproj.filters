@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{86c7498f-4426-463f-9450-302c3cd040d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include">
+      <UniqueIdentifier>{37ad3f7f-8c93-468e-b3dd-e1864a756cd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\h5sdk">
+      <UniqueIdentifier>{a4cc671e-c711-4689-8dec-7be53cfa8000}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\Include">
+      <UniqueIdentifier>{897b2a4c-4cb2-4b2b-896f-c7415bc42584}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Common\public.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\h5sdk_impl.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="HundsunH5sdkApi_impl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Common\public.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\h5sdk_impl.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\h5sdk\h5sdk.h">
+      <Filter>Include\h5sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\h5sdk\h5sdk_export.h">
+      <Filter>Include\h5sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\h5sdk\velocimetry.h">
+      <Filter>Include\h5sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Include\hscomm_message_factory_interface.h">
+      <Filter>Include\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Include\hscomm_message_interface.h">
+      <Filter>Include\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Include\plugin_interface.h">
+      <Filter>Include\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Include\pluginid.h">
+      <Filter>Include\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Include\sdk_tag.h">
+      <Filter>Include\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\HundsunH5sdkApi.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\HundsunH5sdkUserApiStruct.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="HundsunH5sdkApi_impl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
